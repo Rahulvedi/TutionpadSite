@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    margin-bottom: 0 !important;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+a{
+    text-decoration: none; 
+}
+li{
+    list-style: none !important;
+}
+:root{
+    --Color--Primary:#007aff;
+    --Color--DimGrey:#cac7c7;
+    --Color--Secondary:#000;
+    --Color--BtnColor:#000;
+}

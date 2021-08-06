@@ -1,0 +1,114 @@
+.Header{
+    width: 100%;
+    height: 4.175rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--Color--Primary);
+}
+.navbarWrapper{
+    height: 100%;
+    max-width: 80rem;
+    padding: 0 20px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    transition: all ease-in .2s;
+}
+.logo{
+color: white;
+font-size: 2rem;
+letter-spacing: 2px;
+font-weight: 700;
+}
+.navitems{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 0 !important; */
+}
+.navlink{
+    padding-right: .8rem;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+.btns{
+    margin-right: 1rem;
+    outline: none;
+    border: none;
+    padding: .4rem;
+    color: white;
+    border-radius: .5rem;
+    background-color: #fb4444;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn:hover{
+background-color: white;
+color: var(--Color--Primary);
+}
+.navmenu{
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.subnavitems1{
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+    top:8rem;
+    padding: 0 !important;
+    opacity: 0;
+    transition: all ease-in .2s;
+}
+.subnavlink{
+    padding: .4rem;
+}
+.navlink:hover .subnavitems1{
+   visibility: visible;
+   top: 4.1875rem;
+   opacity: 1;
+}
+
+.openmenu{
+    right: 0 !important; 
+}
+/* media querries */
+@media screen and (max-width: 768px) {
+    .right{
+       position: fixed;
+       width: 40vw;
+       height: 100vh;
+       top:4.1875rem;
+       right: -50rem;
+       flex-direction: column;
+       align-items: unset;
+       background-color: white;
+    }
+    .navmenu{
+        display: block;
+    }
+    .navitems{
+       flex-direction: column;
+      
+    }
+    .navlink{
+        color: black;
+        margin: 1rem;
+    }
+    .btns{
+        margin: 1rem;
+    }
+  }
+  @media screen and (max-width:540px) {
+    .right{
+        width: 80vw;
+    }
+  }
