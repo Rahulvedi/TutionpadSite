@@ -3,7 +3,6 @@ import './Navbar.css'
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdClose } from 'react-icons/md'
-import {Dropdown} from 'react-bootstrap'
 const Navbar = () => {
     const [MenuOpen, setMenuOpen] = useState(false)
     function handleMenuClick() {
