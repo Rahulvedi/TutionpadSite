@@ -48,6 +48,7 @@ export const NavLinks = styled.li`
      visibility: visible;
      opacity: 1;
      top: 4.175rem;
+     transition: all ease-in .3s;
   }
 }
 @media screen and (max-width:768px){
@@ -94,7 +95,7 @@ flex-direction: column;
 top: 8rem;
 visibility: hidden;
 opacity: 0;
-transition: all ease-in .3s;
+
 `
 export const SubNavLinks=styled.li`
 padding: .5rem;
