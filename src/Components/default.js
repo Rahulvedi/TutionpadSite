@@ -1,2 +1,2 @@
-import Navbar from "./Navbar/Navbar";
-export {Navbar}
+import Header from "./Header/Header";
+export {Header}

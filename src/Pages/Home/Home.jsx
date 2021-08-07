@@ -1,12 +1,11 @@
 import React from 'react'
-import {Navbar} from '../../Components/default'
-// import { Link } from 'react-router-dom'
+import { Header } from '../../Components/default'
 const Home = () => {
     return (
         <>
-            <Navbar/>
-           <p>hi rahul</p>
+            <Header/>
         </>
     )
 }
+
 export default Home
