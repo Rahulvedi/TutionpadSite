@@ -50,6 +50,14 @@ export const NavLinks = styled.li`
      top: 4.175rem;
   }
 }
+@media screen and (max-width:768px){
+    &:hover .SubNavLinks{
+        position: unset;
+     visibility: visible;
+     opacity: 1;
+     top: 4.175rem;
+  }
+}
 `;
 export const NavButton = styled.button`
   margin-right: 1rem;
@@ -84,7 +92,7 @@ position: absolute;
 display: flex;
 flex-direction: column;
 top: 8rem;
-visibility: visible;
+visibility: hidden;
 opacity: 0;
 transition: all ease-in .3s;
 `

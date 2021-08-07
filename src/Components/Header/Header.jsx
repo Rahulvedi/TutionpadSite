@@ -17,18 +17,18 @@ const Header = () => {
             </Left>
             <Right click={MenuIsOpen}>
                 <NavItems>
-                    <NavLinks>Live Classes<RiArrowDropDownLine/>
+                    <NavLinks >Live Classes<RiArrowDropDownLine/>
                     <SubNavItems className='SubNavLinks'>
                         <SubNavLinks>CBSE</SubNavLinks>
                         <SubNavLinks>IIT JEE</SubNavLinks>
                         </SubNavItems>
                     </NavLinks>
-                    <NavLinks>Study Material<RiArrowDropDownLine/>
+                    <NavLinks  >Study Material<RiArrowDropDownLine/>
                     <SubNavItems className='SubNavLinks'>
                     <SubNavLinks>CBSE NCERT BOOKS</SubNavLinks>
                     </SubNavItems>
                     </NavLinks>
-                    <NavLinks>More<RiArrowDropDownLine/>
+                    <NavLinks >More<RiArrowDropDownLine/>
                     <SubNavItems className='SubNavLinks'>
                     <SubNavLinks >Become a Teacher at Tutionpad</SubNavLinks>
                     <SubNavLinks>Refer & Earn</SubNavLinks>
