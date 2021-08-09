@@ -20,12 +20,17 @@ export const Right = styled.div`
   transition: all ease-in 0.2s;
   @media screen and (max-width: 768px) {
     position: absolute;
-    width: 40vw;
+    z-index: 1;
+    width: 50vw;
     height: 100vh;
     top: 4.1875rem;
+    align-items: center;
     left:${({ click }) => (click ? '0' : '-100%')};
     flex-direction: column;
     background-color: white;
+  }
+  @media screen and (max-width:540px){
+    width: 80vw;
   }
 `;
 export const Logo = styled.img`
@@ -34,12 +39,13 @@ export const Logo = styled.img`
 export const NavItems = styled.ul`
   display: flex;
   align-items: center;
+  margin-bottom: 0 !important;
   @media screen and (max-width:768px){
       flex-direction: column;
   }
 `;
 export const NavLinks = styled.li`
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   align-items: center;
   cursor: pointer;
   text-align: center;
@@ -61,6 +67,7 @@ export const NavLinks = styled.li`
 }
 `;
 export const NavButton = styled.button`
+
   margin-right: 1rem;
   outline: none;
   border: none;
@@ -77,7 +84,7 @@ export const NavButton = styled.button`
   @media screen and (max-width:768px){
     margin-top: 1rem;
     margin-right: 0;
-      width: 100%;
+    width: 90%;
   }
 `;
 export const MenuIcon = styled.div`
@@ -91,10 +98,12 @@ export const MenuIcon = styled.div`
 export const SubNavItems=styled.ul`
 position: absolute;
 display: flex;
+background-color: white;
 flex-direction: column;
 top: 8rem;
 visibility: hidden;
 opacity: 0;
+padding: 0  !important;
 
 `
 export const SubNavLinks=styled.li`
