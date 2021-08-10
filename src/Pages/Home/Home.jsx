@@ -5,7 +5,10 @@ const Home = () => {
     return (
         <>
             <Header/>
-            <Sec1/>
+            <div className="content">
+                <Sec1/>
+            </div>
+            <Footer/>
         </>
     )
 }
