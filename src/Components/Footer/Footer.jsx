@@ -10,7 +10,6 @@ import {
 
 const Footer = () => {
     return (
-      <footer>
         <Box>
       <h1 style={{ color: "green", 
                    textAlign: "left", 
@@ -106,7 +105,6 @@ const Footer = () => {
                    © Tuitionpad | All Rights Reserved
           </p>
     </Box>
-    </footer>
   )
 }
 
