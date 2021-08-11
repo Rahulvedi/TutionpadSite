@@ -1,12 +1,30 @@
 import styled from "styled-components";
 export const Section=styled.section`
-height: 80vh;
+
 `
+// Floater-----------------------------------------start---------
 export const FlotingWrapper=styled.div`
 position: absolute;
-height: 20%;
-width: 60%;
-background-color: white;
-top: 400px;
-left: 400px; 
+/* background-color: violet; */
+height: calc(100vh - 4.175rem);
+width: 100%;
+top: 4.175rem;
+left: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+`
+export const Float=styled.div`
+position: absolute;
+background-color: wheat;
+height: 50%;
+width: 55%;
+display: flex;
+justify-content: center;
+align-items: center;
+`
+
+// Floater-----------------------------------------End---------
+export const ImgSlider=styled.div`
+
 `

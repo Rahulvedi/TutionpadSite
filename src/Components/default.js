@@ -1,3 +1,4 @@
 import Header from "./Header/Header";
 import Slider from "./Slider/Slider";
-export {Header,Slider}
+import Footer from "./Footer/Footer";
+export {Header,Slider,Footer}
