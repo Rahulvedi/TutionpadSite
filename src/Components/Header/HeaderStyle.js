@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   width: 100%;
   height: 4.175rem;
-  top: 0;
+  top: 0; 
 `;
 export const NavbarWrapper = styled.div`
   height: 100%;

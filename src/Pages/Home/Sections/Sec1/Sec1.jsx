@@ -1,12 +1,21 @@
 import React from 'react'
-import { Section } from './Sec1Styles'
-import Slider from '../../../../Components/UI/Carousel/Slider'
+import { Section, FlotingWrapper, Float,ImgSlider } from './Sec1Styles'
+import { Slider } from '../../../../Components/default'
+
 const Sec1 = () => {
     return (
         <Section>
-         <Slider/>
+            <Slider />
+            <FlotingWrapper>
+                <Float>
+                    <h1>Content to display Here...</h1>
+                </Float>
+            </FlotingWrapper>
+            <ImgSlider>
+                
+            </ImgSlider>
         </Section>
-    )
+                    )
 }
 
-export default Sec1
+  export default Sec1

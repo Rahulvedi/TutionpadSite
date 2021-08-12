@@ -1,12 +1,12 @@
 import React from 'react'
 import loginImg from '../../../images/login-page-bg.jpg'
 import { Wrapper, FormWrapper, BannerWrapper,BannerImg} from './RegisterStyle';
-import StudentMultiForm from './StudentMultiForm/StudentMultiForm';
-const ResgisterStudent = () => {
+import TeacherMultiForm from './TeacherMultiForm/TeacherMultiForm';
+const ResgisterTeacher = () => {
     return (
         <Wrapper>
             <FormWrapper>
-                <StudentMultiForm/>
+                <TeacherMultiForm/>
             </FormWrapper>
             <BannerWrapper>
                 <BannerImg src={loginImg} />
@@ -15,4 +15,4 @@ const ResgisterStudent = () => {
     )
 }
 
-export default ResgisterStudent
+export default ResgisterTeacher
