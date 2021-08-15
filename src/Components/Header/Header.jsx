@@ -1,19 +1,20 @@
 import React,{useState} from 'react'
-import logo from '../../images/logo-alt.svg'
 import { RiArrowDropDownLine } from 'react-icons/ri'
 import {MdClose} from 'react-icons/md'
 import {GiHamburgerMenu} from 'react-icons/gi'
+import {Link} from 'react-router-dom'
 import { Nav,NavbarWrapper,Left,Right, Logo,NavItems,NavLinks,NavButton,MenuIcon,SubNavLinks,SubNavItems} from './HeaderStyle'
 const Header = () => {
     const [MenuIsOpen, setMenuIsOpen] = useState(false)
     function handleMenuClick(){
         setMenuIsOpen(!MenuIsOpen)
     }
+
     return (
         <Nav>
             <NavbarWrapper>
             <Left>
-                <Logo src={logo}/>
+                <Logo src='/images/logo-alt.svg'/>
             </Left>
             <Right click={MenuIsOpen}>
                 <NavItems>
@@ -38,8 +39,10 @@ const Header = () => {
                 </SubNavItems>
                     </NavLinks>
                 </NavItems>
-                <NavButton>Sign Up</NavButton>
-                <NavButton>Sign In</NavButton>
+                <NavButton as={Link} to='/signup-as-student'>Sign Up</NavButton>
+                <NavButton as={Link} to='/signin'>Sign In</NavButton>
+                
+                
             </Right>
             <MenuIcon>
                 {MenuIsOpen?<MdClose onClick={handleMenuClick} style={{ color: 'black' }} />:<GiHamburgerMenu onClick={handleMenuClick} style={{ color: 'black' }} />}

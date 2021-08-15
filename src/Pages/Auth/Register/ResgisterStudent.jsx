@@ -1,5 +1,4 @@
 import React from 'react'
-import loginImg from '../../../images/login-page-bg.jpg'
 import { Wrapper, FormWrapper, BannerWrapper,BannerImg} from './RegisterStyle';
 import StudentMultiForm from './StudentMultiForm/StudentMultiForm';
 const ResgisterStudent = () => {
@@ -9,7 +8,7 @@ const ResgisterStudent = () => {
                 <StudentMultiForm/>
             </FormWrapper>
             <BannerWrapper>
-                <BannerImg src={loginImg} />
+                <BannerImg src='/images/login-page-bg.jpg' />
             </BannerWrapper>
         </Wrapper>
     )

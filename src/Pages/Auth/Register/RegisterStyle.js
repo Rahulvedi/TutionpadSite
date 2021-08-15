@@ -3,6 +3,7 @@ import { Form, Button } from "react-bootstrap";
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
+  height: 100vh;
   flex-wrap: wrap;
 `;
 export const FormWrapper = styled.div`

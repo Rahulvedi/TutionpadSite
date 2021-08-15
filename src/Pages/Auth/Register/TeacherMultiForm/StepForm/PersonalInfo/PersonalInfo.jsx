@@ -1,13 +1,12 @@
 import React from 'react'
 import { Form } from 'react-bootstrap';
-import logo from '../../../../../../images/logo-alt.svg'
 import { Logo, Title, SubTitle, LoginForm,LoginButton} from '../StepFormStyles';
 const PersonalInfo = () => {
     return (
         <>
-            <Logo src={logo} />
+            <Logo src='/images/logo-alt.svg'/>
                 <Title>Welcome To Tutionpad</Title>
-                <SubTitle>Please Register for your account</SubTitle>
+                <SubTitle>Account's Info</SubTitle>
                 <LoginForm>
                 <Form.Group id="username" className='mb-3'>
                         <Form.Label >Teacher's Name</Form.Label>
