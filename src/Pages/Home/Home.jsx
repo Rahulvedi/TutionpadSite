@@ -7,6 +7,7 @@ const Home = () => {
             <Header/>
             <div className="content">
                 <Sec1/>
+                <Card/>
             </div>
             <Footer/>
         </>
