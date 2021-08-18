@@ -4,7 +4,7 @@ import {ContactAcc} from './ContactAccordionStyle'
 
 const ContactAccordion = () => {
   return (
-   <ContactAcc>ACCORDION</ContactAcc>
+   <ContactAcc>ACCORDION Here</ContactAcc>
   );
 };
 

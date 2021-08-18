@@ -33,7 +33,7 @@ const Header = () => {
                     <SubNavItems className='SubNavLinks'>
                     <SubNavLinks >Become a Teacher at Tutionpad</SubNavLinks>
                     <SubNavLinks>Refer & Earn</SubNavLinks>
-                    <SubNavLinks>Contact Us</SubNavLinks>
+                    <SubNavLinks as={Link} to='/contactus'>Contact Us</SubNavLinks>
                 <SubNavLinks>About Us</SubNavLinks>
                     <SubNavLinks>Blog</SubNavLinks>
                 </SubNavItems>
