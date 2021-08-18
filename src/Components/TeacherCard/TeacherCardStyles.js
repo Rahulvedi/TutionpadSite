@@ -6,6 +6,11 @@ margin:.5rem;
 /* @media screen and (max-width:540px){
     margin: .5rem;
 } */
+min-width: 16rem;
+box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.06);
+@media screen and (max-width:610px){
+width: 100%;
+}
 `
 export const TeacherImg=styled(Card.Img)``
 export const TeacherInfo=styled(Card.Body)``
