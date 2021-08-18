@@ -64,7 +64,7 @@ width: 100%;
     justify-content: center;
 }
 `
-export const Title=styled.p`
+export const Title=styled.h1`
 font-style: normal;
 font-weight: bold;
 font-size: 2.5rem;
@@ -73,6 +73,11 @@ color: #FFFFFF;
 text-align: center;
 @media screen and (max-width:1024px){
     font-size:2rem;
+    line-height:2.125rem;
+}
+@media screen and (max-width:768px){
+    font-size: 1.5rem;
+    line-height:2.125rem;
 }
 `
 export const SubTitle=styled.p`

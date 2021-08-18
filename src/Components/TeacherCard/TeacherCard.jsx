@@ -3,7 +3,7 @@ import { Teacher, TeacherName, TeacherImg, Location, PricePerClass ,TeacherInfo,
 
 const TeacherCard = ({rating}) => {
     return (
-        <Teacher style={{ width: '16rem' }}>
+        <Teacher >
             <TeacherImg variant="top" src="/images/teacher/Teacher1.svg" />
             <TeacherInfo>
                 <Location> jaipur,India</Location>

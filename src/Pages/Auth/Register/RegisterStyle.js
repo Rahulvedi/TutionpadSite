@@ -8,9 +8,9 @@ export const Wrapper = styled.div`
 `;
 export const FormWrapper = styled.div`
   width: 43%;
-  padding: 81px 81px 10px  81px;
+  padding: 81px;
   @media (min-width: 1441px) {
-    padding: 130px  130px  10px 130xpx;
+    padding: 130px;
   }
   @media (max-width: 1200px) {
     width: 50%;
@@ -24,7 +24,7 @@ export const FormWrapper = styled.div`
     width: 100%;
   }
   @media (max-width: 480px) {
-    padding: 30px 30px 10px 30px;
+    padding: 30px;
   }
 `;
 export const BannerWrapper = styled.div`
