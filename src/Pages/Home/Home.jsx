@@ -7,6 +7,7 @@ import Sec3 from './Sections/Sec3/Sec3.jsx'
 import Sec5 from './Sections/Sec5/Sec5'
 import Sec6 from './Sections/Sec6/Sec6'
 import Sec7 from './Sections/Sec7/Sec7'
+import Sec8 from './Sections/Sec8/Sec8'
 const Home = () => {
     return (
         <>
@@ -18,6 +19,7 @@ const Home = () => {
             <Sec5/>
             <Sec6/>
             <Sec7/>
+            <Sec8/>
         </>
     )
 }

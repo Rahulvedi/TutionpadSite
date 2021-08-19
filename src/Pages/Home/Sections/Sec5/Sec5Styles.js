@@ -50,6 +50,7 @@ border-radius: 10px;
     margin: .5rem;
     padding: 1rem;
     border-radius: 10px;
+    cursor: pointer;
 }
 .option{
     font-size: 1.2rem;

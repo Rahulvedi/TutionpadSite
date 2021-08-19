@@ -5,6 +5,7 @@ import { GoRepo } from 'react-icons/go'
 import { FaRegSmileBeam } from 'react-icons/fa'
 import { HiUsers } from 'react-icons/hi'
 import { AiOutlineHighlight } from 'react-icons/ai'
+import {BiCalendarWeek} from 'react-icons/bi'
 const Sec7 = () => {
     return (
         <Section>
@@ -17,7 +18,7 @@ const Sec7 = () => {
                     <SubText>Don't sit calm until you get clear concepts. You can always raise hand to ask your doubts.</SubText>
                 </Card>
                 <Card>
-                    <Icon><GoRepo/></Icon>
+                    <Icon><BiCalendarWeek/></Icon>
                     <Text>Weekly Reports</Text>
                     <SubText>Outcome based methodology, we share your child's learning evaluation reports every week..</SubText>
                 </Card>
