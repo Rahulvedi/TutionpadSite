@@ -7,7 +7,7 @@ import { Section,Links,Icon,Title,SubTitle} from './SocialStyle'
 const Social = () => {
     return (
         <Section>
-            <Links as={Link} to='https://api.whatsapp.com/send?phone=+917976649684'>
+            <Links target='_blank' href='https://api.whatsapp.com/send?phone=+917976649684'>
             <Icon><FaWhatsapp/></Icon>
             <Title>+91 7976649684</Title>
             </Links> 
@@ -15,19 +15,19 @@ const Social = () => {
             <Icon><FaRegEnvelope/></Icon>
             <Title>hello@tuitionpad.com</Title>
             </Links> 
-            <Links as={Link} to='https://twitter.com/Tuitionpad1'>
+            <Links  target='_blank' href='https://twitter.com/Tuitionpad1'>
             <Icon><FaTwitter/></Icon>
             <Title>Twitter</Title>
             </Links> 
-            <Links as={Link} to='https://www.facebook.com/tuitonpad'>
+            <Links  target='_blank' href='https://www.facebook.com/tuitonpad'>
             <Icon><FaFacebookF/></Icon>
             <Title>Facebook</Title>
             </Links> 
-            <Links as={Link} to='https://www.linkedin.com/company/tuitionpad/'>
+            <Links target='_blank' href='https://www.linkedin.com/company/tuitionpad/'>
             <Icon><FaLinkedinIn/></Icon>
             <Title>Linkedin</Title>
             </Links> 
-            <Links as={Link} to='https://www.youtube.com/channel/UCbt6rdg5iHql2q-rG1I7fmA'> 
+            <Links target='_blank' href='https://www.youtube.com/channel/UCbt6rdg5iHql2q-rG1I7fmA'> 
             <Icon><FaYoutube/></Icon>
             <Title>YouTube</Title>
             </Links> 

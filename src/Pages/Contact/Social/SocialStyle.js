@@ -10,7 +10,7 @@ margin-top:9rem;
 position: relative;
 
 `
-export const Links=styled.div`
+export const Links=styled.a`
 display:flex;
 /* background: greenyellow; */
 color:black;
