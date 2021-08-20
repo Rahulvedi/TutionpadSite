@@ -47,12 +47,18 @@ margin: 1rem;
 @media screen and (max-width:924px){
     width: 100%;
 }
+@media screen and (max-width:610px){
+  margin: 0rem;
+}
 `
 export const OfflineTutors=styled.div`
 width: 50%;
 margin: 1rem;
 @media screen and (max-width:924px){
     width: 100%;
+}
+@media screen and (max-width:610px){
+  margin: 0rem;
 }
 `
 export const Row=styled.div`
