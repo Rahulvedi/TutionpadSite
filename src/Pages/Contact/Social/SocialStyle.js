@@ -1,13 +1,17 @@
 import styled from "styled-components"
 export const Section=styled.section`
-height:34rem;
+height:fit-content;
 width:100%;
 display:flex;
 flex-direction: column;
-padding: 7rem 0  7rem 12rem;
-margin-top:9rem;
+padding: 3rem 12rem;
+    @media screen and (max-width:1024px){
+          padding: 3rem 5rem;
+      }
+      @media screen and (max-width:495px){
+          padding: 3rem 2rem;
+      }
 /* background:whitesmoke; */
-position: relative;
 
 `
 export const Links=styled.a`

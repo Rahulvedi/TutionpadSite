@@ -29,7 +29,7 @@ const Sec8 = () => {
                 </Tabs>
                 <RenderSwitch choice={Choice} className='render-switch' />
             </Content>
-            <Button>Book Trail Classes</Button>
+            <Button>Book Trial Classes</Button>
         </Section>
     )
 }
