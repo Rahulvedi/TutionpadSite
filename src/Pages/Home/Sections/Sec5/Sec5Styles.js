@@ -33,9 +33,12 @@ export const Container=styled.div`
 display: flex;
 justify-content: center;
 margin: 4rem 5rem;
-/* @media screen and (max-width:1024px){
+@media screen and (max-width:1024px){
     flex-direction: column-reverse;
-} */
+}
+@media screen and (max-width:768px){
+    margin: 1rem 2rem;
+}
 `
 export const Selector=styled.div`
 width: 30%;
@@ -50,6 +53,7 @@ border-radius: 10px;
     margin: .5rem;
     padding: 1rem;
     border-radius: 10px;
+    cursor: pointer;
 }
 .option{
     font-size: 1.2rem;
@@ -71,6 +75,10 @@ border-radius: 10px;
         color: white;
     }
 }
+@media screen and (max-width:1024px){
+    width: 100%;
+    margin-top: 4rem;
+}
 `
 export const Content=styled.div`
 width: 70%;
@@ -78,6 +86,9 @@ margin-left: 5rem;
 .content{
     display: flex;
     align-items: center;
+    @media screen and (max-width:610px){
+    flex-direction: column;
+}
 }
 .title{
     font-size: 1.5rem;
@@ -87,5 +98,11 @@ margin-left: 5rem;
     height: 250px;
     width: 250px;
     margin-right: 1rem;
+}
+@media screen and (max-width:1024px){
+  margin-left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 `
