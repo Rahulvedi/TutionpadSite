@@ -8,6 +8,12 @@ justify-content: center;
 align-items: start;
 padding: 12.5rem;
 background: #d8fff5;
+@media screen and (max-width:1024px){
+          padding: 12rem 4rem;
+      }
+      @media screen and (max-width:495px){
+          padding: 12rem 2rem;
+      }
 `
 
 export const Title=styled.h2`
