@@ -1,19 +1,13 @@
 import React from 'react'
-import { Form,Button,Col } from 'react-bootstrap';
+import { Form,Button} from 'react-bootstrap';
 const Step3 = ({navigation}) => {
-    function handleSubmit(e){
-        e.preventDefault()
-        navigation.next()
-    }
     function handlePrev(e){
         e.preventDefault()
         navigation.previous()
     }
     return (
-        <>         
-              
+        <>            
                 <Form> 
-            
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Select UPI App <span style={{color:'blue'}}>*</span></Form.Label>
                         <select className="form-select" aria-label="Default select example" required>

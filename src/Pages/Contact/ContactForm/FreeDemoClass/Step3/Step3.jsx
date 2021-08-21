@@ -1,22 +1,17 @@
 import React from 'react'
 import { Form,Button,Col } from 'react-bootstrap';
 const Step3 = ({navigation}) => {
-    function handleSubmit(e){
-        e.preventDefault()
-        navigation.next()
-    }
+    // function handleSubmit(e){
+    //     e.preventDefault()
+    //     navigation.next()
+    // }
     function handlePrev(e){
         e.preventDefault()
         navigation.previous()
     }
     return (
         <>         
-                {/* <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-                </div> */}
-                {/* <Form onSubmit={handleSubmit}> */}
                 <Form> 
-            
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Do you have Laptop or PC with webcam and headphone at your home for live class? <span style={{color:'blue'}}>*</span></Form.Label>
                         <select className="form-select" aria-label="Default select example" required>
@@ -47,9 +42,9 @@ const Step3 = ({navigation}) => {
                     </Form.Group>
                     <div className='d-flex justify-content-between'>
                     <Button variant='secondary' onClick={handlePrev}>
-                        Prev
+                        Previous
                     </Button>
-                    <Button variant="danger" type="submit">
+                    <Button variant="danger">
                         Schedule Demo Class
                     </Button>
                     </div>
