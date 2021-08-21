@@ -11,10 +11,6 @@ const Step2 = ({navigation}) => {
     }
     return (
         <>         
-               {/* <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 66%;" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">66%</div>
-                </div> */}
-
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Parent's Mobile Number <span style={{color:'blue'}}>*</span></Form.Label>
@@ -39,7 +35,7 @@ const Step2 = ({navigation}) => {
                     </Form.Group>
                     <div className='d-flex justify-content-between'>
                     <Button variant="secondary" onClick={handleBack}>
-                        Prev
+                        Previous
                     </Button>
                     <Button variant="primary" type="submit">
                         Next

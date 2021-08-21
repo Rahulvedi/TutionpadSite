@@ -7,9 +7,6 @@ const Step1 = ({ navigation }) => {
     }
     return (
         <>         
-                {/* <div classNmae="progress">
-                <div className="progress-bar" role="progressbar" style="width: 33%;" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">33%</div>
-                </div> */}
 
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -19,7 +16,7 @@ const Step1 = ({ navigation }) => {
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Select Class <span style={{color:'blue'}}>*</span></Form.Label>
                         <select className="form-select" aria-label="Default select example" required>
-                        <option selected>-Class-</option>
+                        <option >-Class-</option>
                         <option value="1">Class 8</option>
                         <option value="2">Class 9</option>
                         <option value="3">Class 10</option>

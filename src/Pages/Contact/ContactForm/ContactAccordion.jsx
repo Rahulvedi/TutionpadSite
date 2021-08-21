@@ -1,5 +1,7 @@
 import React from "react";
 import FreeDemoClass from "./FreeDemoClass/FreeDemoClass";
+import ReferEarn from "./Refer&Earn/Refer&Earn";
+import WriteUs from "./WriteUs/WriteUs";
 import { ContactAcc } from "./ContactAccordionStyle";
 
 const ContactAccordion = () => {
@@ -26,12 +28,6 @@ const ContactAccordion = () => {
           >
             <div className="accordion-body">
               <FreeDemoClass/>
-
-              {/* You can access online classes through Laptop, Tablet or
-              Smartphone. We recommends you to use join via laptop for best
-              learning experience. Also, you just require speedy Internet
-              connection to attend classes even on the mobile data, however,
-              WiFi is recommended for better connectivity. */}
             </div>
           </div>
         </div>
@@ -55,9 +51,7 @@ const ContactAccordion = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              We have very small batches - One Teacher for One Student and One
-              Teacher for every Five Students for better engagement and
-              attention.
+              <ReferEarn/>
             </div>
           </div>
         </div>
@@ -81,9 +75,7 @@ const ContactAccordion = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              Yes, every face to face live class is recorded in system and we
-              make available that after the live class, students can revise that
-              class anytime.
+              <WriteUs/>
             </div>
           </div>
         </div>
