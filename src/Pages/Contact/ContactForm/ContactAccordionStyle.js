@@ -4,7 +4,6 @@ height:fit-content;
 width:55%;
 margin: -3rem  0 0 12rem;
 border-radius: 15px;
-color: indigo;
 z-index: 2;
 /* position: absolute; */
 background: #ffffff;

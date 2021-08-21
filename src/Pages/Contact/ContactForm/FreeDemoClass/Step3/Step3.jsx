@@ -1,28 +1,33 @@
 import React from 'react'
-import { Form,Button } from 'react-bootstrap';
+import { Form,Button,Col } from 'react-bootstrap';
 const Step3 = ({navigation}) => {
     function handleSubmit(e){
         e.preventDefault()
         navigation.next()
     }
+    function handlePrev(e){
+        e.preventDefault()
+        navigation.previous()
+    }
     return (
         <>         
-                {/* const now = 100;
-                const progressInstance = <ProgressBar now={now} label={`${now}%`} />;
-                render(progressInstance); */}
-
-                <Form onSubmit={handleSubmit}>
+                {/* <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div> */}
+                {/* <Form onSubmit={handleSubmit}> */}
+                <Form> 
             
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Do you have Laptop or PC with webcam and headphone at your home for live class?</Form.Label>
-                        <Form.Select aria-label="Floating label select example">
+                        <Form.Label>Do you have Laptop or PC with webcam and headphone at your home for live class? <span style={{color:'blue'}}>*</span></Form.Label>
+                        <select className="form-select" aria-label="Default select example" required>
                         <option>-Select-</option>
                         <option value="1">Yes</option>
                         <option value="2">No</option>
-                        </Form.Select>
+                        </select>
+                                            
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Internet connection type </Form.Label>
+                        <Form.Label>Internet connection type <span style={{color:'blue'}}>*</span></Form.Label>
                         <Col sm={10}>
                             <Form.Check type="radio" label=" Broadband" name="formHorizontalRadios" id="formHorizontalRadios1"
                             />
@@ -37,12 +42,17 @@ const Step3 = ({navigation}) => {
                         </Col>
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Details About Your Request</Form.Label>
-                            <Form.Control as="textarea" placeholder="Details About Your Request" style={{ height: '100px' }}/>                   
+                        <Form.Label>Details About Your Request <span style={{color:'blue'}}>*</span></Form.Label>
+                            <Form.Control as="textarea" placeholder="Details About Your Request" style={{ height: '100px' }}  required/>                   
                     </Form.Group>
-                    <Button variant="Danger" type="submit">
+                    <div className='d-flex justify-content-between'>
+                    <Button variant='secondary' onClick={handlePrev}>
+                        Prev
+                    </Button>
+                    <Button variant="danger" type="submit">
                         Schedule Demo Class
                     </Button>
+                    </div>
                 </Form>
         </>
     )
