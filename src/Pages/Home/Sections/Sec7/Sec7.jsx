@@ -44,7 +44,7 @@ const Sec7 = () => {
                     <SubText>Regular practice tests to evaluate subjects and for better exam preparation</SubText>
                 </Card>
             </Content>
-            <Button>Book Trail Classes</Button>
+            <Button>Book Trial Classes</Button>
         </Section>
     )
 }

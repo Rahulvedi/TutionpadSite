@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form,Button } from 'react-bootstrap';
+import { Form,Button,Col } from 'react-bootstrap';
 const Step3 = ({navigation}) => {
     function handleSubmit(e){
         e.preventDefault()

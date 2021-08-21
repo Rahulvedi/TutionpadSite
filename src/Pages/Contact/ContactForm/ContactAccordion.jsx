@@ -1,5 +1,5 @@
 import React from "react";
-// import FreeDemoClass from "./FreeDemoClass/FreeDemoClass";
+import FreeDemoClass from "./FreeDemoClass/FreeDemoClass";
 import { ContactAcc } from "./ContactAccordionStyle";
 
 const ContactAccordion = () => {
@@ -25,7 +25,7 @@ const ContactAccordion = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              {/* <FreeDemoClass/> */}
+              <FreeDemoClass/>
 
               You can access online classes through Laptop, Tablet or
               Smartphone. We recommends you to use join via laptop for best
