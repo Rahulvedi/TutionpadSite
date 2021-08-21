@@ -27,11 +27,11 @@ const ContactAccordion = () => {
             <div className="accordion-body">
               <FreeDemoClass/>
 
-              You can access online classes through Laptop, Tablet or
+              {/* You can access online classes through Laptop, Tablet or
               Smartphone. We recommends you to use join via laptop for best
               learning experience. Also, you just require speedy Internet
               connection to attend classes even on the mobile data, however,
-              WiFi is recommended for better connectivity.
+              WiFi is recommended for better connectivity. */}
             </div>
           </div>
         </div>
