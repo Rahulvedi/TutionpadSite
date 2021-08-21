@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router,Switch,Route} from  'react-router-dom'
 import Home from './Pages/Home/Home'
 import Contact from './Pages/Contact/Contact';
+import ReferAndEarn from './Pages/ReferAndEarn/ReferAndEarn';
 // import About from './Pages/About/About'
 import Login from './Pages/Auth/Login/Login'
 import RegisterAsStudent from './Pages/Auth/Register/ResgisterStudent'
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/contactus' exact component={Contact}/>
+          <Route path='/refer-earn' exact component={ReferAndEarn}/>
           <Route path='/signup-as-student'  component={RegisterAsStudent}/>
           <Route path='/signup-as-teacher'  component={ResgisterTeacher}/>
           <Route path='/signin'  component={Login}/>
