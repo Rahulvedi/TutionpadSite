@@ -31,12 +31,13 @@ margin-left: 20px;
 
 export const Row = styled.div`
 display: grid;
-grid-template-columns: repeat(auto-fill,
+grid-template-columns: repeat(auto-fit,
 						minmax(200px, 1fr));
 grid-gap: 20px;
+justify-content: center;
 
 @media (max-width: 500px) {
-	grid-template-columns: repeat(auto-fill,
+	grid-template-columns: repeat(auto-fit,
 						minmax(200px, 1fr));
 }
 `;

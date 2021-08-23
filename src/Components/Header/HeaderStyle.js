@@ -1,8 +1,12 @@
 import styled from "styled-components";
 export const Nav = styled.nav`
   width: 100%;
-  height: 4.175rem;
-  top: 0;
+  height: 5rem;
+  top: 0; 
+  position: sticky;
+  transition: all ease-in 0.2s;
+  background-color: white;
+  z-index: 10;
 `;
 export const NavbarWrapper = styled.div`
   height: 100%;
@@ -23,7 +27,7 @@ export const Right = styled.div`
     z-index: 1;
     width: 50vw;
     height: 100vh;
-    top: 4.1875rem;
+    top: 5rem;
     align-items: center;
     left:${({ click }) => (click ? '0' : '-100%')};
     flex-direction: column;
@@ -53,7 +57,7 @@ export const NavLinks = styled.li`
     &:hover .SubNavLinks{
      visibility: visible;
      opacity: 1;
-     top: 4.175rem;
+     top: 5rem;
      transition: all ease-in .3s;
   }
 }
@@ -77,6 +81,8 @@ export const NavButton = styled.button`
   background-color: var(--Color--Primary);
   cursor: pointer;
   font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
   &:hover {
     background-color: white;
     color: var(--Color--Primary);
@@ -104,6 +110,7 @@ top: 8rem;
 visibility: hidden;
 opacity: 0;
 padding: 0  !important;
+z-index: 10;
 
 `
 export const SubNavLinks=styled.li`

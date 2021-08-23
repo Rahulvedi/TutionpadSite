@@ -1,6 +1,4 @@
 import React from 'react'
-import logo from '../../../images/logo-alt.svg'
-import loginImg from '../../../images/login-page-bg.jpg'
 import { Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Wrapper, FormWrapper, BannerWrapper, Logo, Title, SubTitle, LoginForm, BannerImg, LoginButton, SocialIcons, FaceBookBtn, GoogleBtn,Text} from './LoginStyles';
@@ -8,7 +6,7 @@ const Login = () => {
     return (
         <Wrapper>
             <FormWrapper>
-                <Logo src={logo} />
+                <Logo src='/images/logo-alt.svg' />
                 <Title>Welcome Back</Title>
                 <SubTitle>Please log into your account</SubTitle>
                 <LoginForm>
@@ -33,7 +31,7 @@ const Login = () => {
                 </Text>
             </FormWrapper>
             <BannerWrapper>
-                <BannerImg src={loginImg} />
+                <BannerImg src='/images/login-page-bg.jpg' />
             </BannerWrapper>
         </Wrapper>
     )

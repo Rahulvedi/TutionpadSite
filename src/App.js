@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Login from './Pages/Auth/Login/Login'
 import RegisterAsStudent from './Pages/Auth/Register/ResgisterStudent'
+import ResgisterTeacher from './Pages/Auth/Register/RegisterTeacher';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/signup-as-student'  component={RegisterAsStudent}/>
+          <Route path='/signup-as-teacher'  component={ResgisterTeacher}/>
           <Route path='/signin'  component={Login}/>
           <Route path='/about'  component={About}/>
         </Switch>
