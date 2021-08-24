@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "svg":"https://tuitionpad.com/wp-content/uploads/2020/08/icon11.svg",
+        "title":"Max. Attention to Every Student",
+        "Des":"We take maximum 5 students per batch to ensure your child gets teacher's full engagement and attention during every class"
+    },
+    {
+        "id": "2",
+        "svg":"https://tuitionpad.com/wp-content/uploads/2020/08/best-teachers.svg",
+        "title":"Learn from the India's best teachers",
+        "Des":"We take the best teachers from the country and give them the chance to teach their students"
+    },
+    {
+        "id": "3",
+        "svg":"https://tuitionpad.com/wp-content/uploads/2020/08/icon12.svg",
+        "title":"Best Learning Environment",
+        "Des":"We have the best learning environment in the country and we are dedicated to provide the best learning environment for our students"
+    },
+    {
+        "id": "4",
+        "svg":"https://tuitionpad.com/wp-content/uploads/2020/08/icon13.svg",
+        "title":"Best Learning Environment",                                                                                                                        
+        "Des":"We have the best learning environment in the country and we are dedicated to provide the best learning environment for our students"
+    },
+    {
+        "id": "5",
+        "svg":"https://tuitionpad.com/wp-content/uploads/2020/08/icon14.svg",
+        "title":"Best Learning Environment",
+        "Des":"We have the best learning environment in the country and we are dedicated to provide the best learning environment for our students"
+    },
+    {
+        "id": "6",
+        "svg":"https://tuitionpad.com/wp-content/uploads/2020/08/icon15.svg",
+        "title":"Best Learning Environment",
+        "Des":"We have the best learning environment in the country and we are dedicated to provide the best learning environment for our students"
+    }
+]

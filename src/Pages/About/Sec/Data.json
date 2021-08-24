@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Bipin Kumar",
+    "img":"https://tuitionpad.com/wp-content/uploads/2020/08/team_bipin-sir.jpeg",
+    "Edu":"Bachelor Of Engineering (B.E) in Electronics & Communication Engineering,",
+    "Des":"I have more than 6 years of experience in teaching CBSE and ICSE boards. I strongly believe quality learning builds the strong foundation for future of every child."
+  },
+  {
+    "id": "2",
+    "name": "Vinay Kumar",
+    "img":"https://tuitionpad.com/wp-content/uploads/2020/08/team_vinay-sir-2.jpeg",
+    "Edu":"Bachelor Of Engineering (B.E) in Computer Science Engineering",
+    "Des":"I want to give my best to mitigate some of the problems that the Indian Education System has. With Tuitionpad, I can research and innovate new edge teaching methods while adding values in students’ lives."
+  },
+  {
+    "id": "3",
+    "name": "Rakesh Choudhary",
+    "img":"https://tuitionpad.com/wp-content/uploads/2020/08/team_rakesh-sir.jpeg",
+    "Edu":"Bachelor Of Technology (B.Tech) in Electronics & Communication Engineering",
+    "Des":"I have 6 years of teaching experience in Physics for NEET students. I always wanted to teach, it gives me satisfaction when I see how your students securing their places and cracking scores."
+  },
+  {
+    "id": "4",
+    "name": "Amit Jha",
+    "img":"https://tuitionpad.com/wp-content/uploads/2020/08/team_amit-sir.jpeg",
+    "Edu":"Masters Of Science (MSc.) in Maths from William Carey University",
+    "Des":"Teaching has always been my passion. So, even before my graduation, I started teaching as a private tutor. The part is how many things I learn from my students as I teach with Tuitionpad."
+  },
+  {
+    "id": "5",
+    "name": "Surendra Singh",
+    "img":"https://tuitionpad.com/wp-content/uploads/2020/08/team_surendra-sir.jpeg",
+    "Edu":"Bachelor Of Engineering (B.E) in Electronics & Communication Engineering",
+    "Des":"I am enjoying teaching the students as well as learning from them. I believe every day is a new opportunity to learn and my main goal is to prepare my students to be successful and to be life-long learners."
+  },
+  {
+    "id": "6",
+    "name": "Vikash Meel",
+    "img":"https://tuitionpad.com/wp-content/uploads/2020/08/team_vikash-sir.jpeg",
+    "Edu":"Naval Officer, Bachelor Of Science (BSc.) from Indian Maritime University",
+    "Des":"I truly believe that Tuitionpad is one of the finest online tuition platform in India, dedicated to providing a quality personalized  education to students. I feel fortunate to be teaching here that I love!"
+  }
+]
