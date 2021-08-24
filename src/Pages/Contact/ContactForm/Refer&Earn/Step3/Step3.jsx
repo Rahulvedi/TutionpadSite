@@ -1,12 +1,15 @@
 import React from 'react'
-import { Form,Button} from 'react-bootstrap';
+import { Form,Button, ProgressBar} from 'react-bootstrap';
 const Step3 = ({navigation}) => {
     function handlePrev(e){
         e.preventDefault()
         navigation.previous()
     }
     return (
-        <>            
+        <>      
+                <p className="mb-3 py-1">Step 3 
+                <ProgressBar now={100} label={`${100}%`} className="my-2" />
+                </p>      
                 <Form> 
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Select UPI App <span style={{color:'blue'}}>*</span></Form.Label>
