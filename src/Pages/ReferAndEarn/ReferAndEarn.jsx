@@ -1,15 +1,18 @@
 import React from 'react'
 import { Header } from '../../Components/default'
+import {ReferImageSection,ReferImage} from './Referral/ReferralStyle'
 import Referral from './Referral/Referral'
-// import Queries_TermsAndCondition from './Queries_TermsAndCondition/Queries_TermsAndCondition'
+import QueriesTermsCondition from './Queries_TermsAndCondition/Queries_TermsAndCondition'
 import { Footer } from '../../Components/default'
 const ReferAndEarn = () => {
     return (
         <>
           <Header/>  
           <Referral/>
-          {/* <ReferresImg variant="top" src="/Referral/referal-image.png" /> */}
-          {/* <Queries_TermsAndCondition/> */}
+          <ReferImageSection>
+            <ReferImage src="/images/referal-image.png"/>
+          </ReferImageSection>
+          <QueriesTermsCondition/>
           <Footer />
         </>
     )

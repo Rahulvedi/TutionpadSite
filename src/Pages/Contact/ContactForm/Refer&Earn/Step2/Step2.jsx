@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form,Button } from 'react-bootstrap';
+import { Form,Button, ProgressBar } from 'react-bootstrap';
 const Step2 = ({navigation}) => {
     function handleSubmit(e){
         e.preventDefault()
@@ -10,7 +10,10 @@ const Step2 = ({navigation}) => {
         navigation.previous()
     }
     return (
-        <>         
+        <>      
+                <p className="mb-3 py-1">Step 2/3 
+                <ProgressBar now={66} label={`${66}%`} className="my-2" />
+                </p>   
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>WhatsApp Contact Number <span style={{color:'blue'}}>*</span></Form.Label>

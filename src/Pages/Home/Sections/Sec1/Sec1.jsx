@@ -31,16 +31,16 @@ const Sec1 = () => {
                         <Input id='subject'></Input>
                     </Group>
                     <Group>
-                        <Label htmlFor='subject'>Country</Label>
-                        <Input id='subject'></Input>
+                        <Label htmlFor='country'>Country</Label>
+                        <Input id='country'></Input>
                     </Group>
                     <Group>
-                        <Label htmlFor='subject'>Experience</Label>
-                        <Input id='subject'></Input>
+                        <Label htmlFor='experience'>Experience</Label>
+                        <Input id='experience'></Input>
                     </Group>
                     <Group>
-                        <Label htmlFor='subject'>Price Range</Label>
-                        <Input id='subject'></Input>
+                        <Label htmlFor='price'>Price Range</Label>
+                        <Input id='price'></Input>
                     </Group>
                     <SearchButton>Search</SearchButton>
                 </SearchBar>

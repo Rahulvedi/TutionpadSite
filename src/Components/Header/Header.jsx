@@ -13,8 +13,8 @@ const Header = () => {
     return (
         <Nav>
             <NavbarWrapper>
-            <Left>
-                <Logo src='/images/logo-alt.svg'/>
+            <Left as={Link} to='/'>
+                <Logo src='/images/logo-alt.svg' />
             </Left>
             <Right click={MenuIsOpen}>
                 <NavItems>
@@ -32,7 +32,7 @@ const Header = () => {
                     <NavLinks >More<RiArrowDropDownLine/>
                     <SubNavItems className='SubNavLinks'>
                     <SubNavLinks >Become a Teacher at Tutionpad</SubNavLinks>
-                    <SubNavLinks as={Link} to='/refer-earn'>Refer & Earn</SubNavLinks>
+                    <SubNavLinks as={Link} to='/invite'>Refer & Earn</SubNavLinks>
                     <SubNavLinks as={Link} to='/contactus'>Contact Us</SubNavLinks>
                 <SubNavLinks>About Us</SubNavLinks>
                     <SubNavLinks>Blog</SubNavLinks>

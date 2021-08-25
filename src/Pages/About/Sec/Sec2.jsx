@@ -4,9 +4,9 @@ const Sec2 = () => {
     return (
         <>
             <section id="sec2" style={{
-             'display': 'flex',
-             'justify-content': 'center',
-             'align-items': 'center',
+             display: 'flex',
+             justifyContent: 'center',
+             alignItems: 'center',
         }}>
                 <article id="sec2-1">
                     <br />

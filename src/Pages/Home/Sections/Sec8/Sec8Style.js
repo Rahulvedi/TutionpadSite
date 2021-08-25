@@ -38,7 +38,7 @@ width: 410px;
 display: flex;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 13%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   margin-top: 1rem;
   .active {
     color: #fff;

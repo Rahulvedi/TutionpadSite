@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form,Button,Col } from 'react-bootstrap';
+import { Form,Button,Col, ProgressBar } from 'react-bootstrap';
 const Step3 = ({navigation}) => {
     // function handleSubmit(e){
     //     e.preventDefault()
@@ -11,6 +11,9 @@ const Step3 = ({navigation}) => {
     }
     return (
         <>         
+                <p className="mb-3 py-1">Step 3 
+                <ProgressBar now={100} label={`${100}%`} className="my-2" />
+                </p>
                 <Form> 
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Do you have Laptop or PC with webcam and headphone at your home for live class? <span style={{color:'blue'}}>*</span></Form.Label>
