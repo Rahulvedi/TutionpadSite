@@ -8,8 +8,7 @@ import About from './Pages/About/About'
 import Login from './Pages/Auth/Login/Login'
 import RegisterAsStudent from './Pages/Auth/Register/ResgisterStudent'
 import ResgisterTeacher from './Pages/Auth/Register/RegisterTeacher';
-import StudentDashBoard from './Pages/DashBoard/StudentDashBoard/StudentDashBoard'
-import TeacherDashBoard from './Pages/DashBoard/TeacherDashBoard/TeacherDashBoard';
+import Error404 from "./Pages/Error404/Error404";
 function App() {
   return (
     <div className="App">
@@ -25,6 +24,7 @@ function App() {
           <Route path='/signup-as-teacher'  component={ResgisterTeacher}/>
           <Route path='/signin'  component={Login}/>
           <Route path='/about'  component={About}/>
+          <Route component={Error404}/>
         </Switch>
       </Router>
     </div>
