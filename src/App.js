@@ -4,10 +4,11 @@ import {BrowserRouter as Router,Switch,Route} from  'react-router-dom'
 import Home from './Pages/Home/Home'
 import Contact from './Pages/Contact/Contact';
 import ReferAndEarn from './Pages/ReferAndEarn/ReferAndEarn';
-// import About from './Pages/About/About'
+import About from './Pages/About/About'
 import Login from './Pages/Auth/Login/Login'
 import RegisterAsStudent from './Pages/Auth/Register/ResgisterStudent'
 import ResgisterTeacher from './Pages/Auth/Register/RegisterTeacher';
+import Error404 from "./Pages/Error404/Error404";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
           <Route path='/signup-as-teacher'  component={ResgisterTeacher}/>
           <Route path='/signin'  component={Login}/>
           <Route path='/about'  component={About}/>
+          <Route component={Error404}/>
         </Switch>
       </Router>
     </div>
