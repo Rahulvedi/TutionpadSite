@@ -2,10 +2,11 @@ import styled from "styled-components"
 export const Refer = styled.section`
 /* background:greenyellow; */
 display: flex;
+justify-content:space-evenly;
 width: auto;
-@media screen and (max-width:1200px){
+@media screen and (max-width:992px){
     flex-direction: column;
-
+    justify-content:center;
 }
 `
 export const ReferralForm =styled.div`
@@ -13,7 +14,7 @@ export const ReferralForm =styled.div`
 margin: 1.5rem;
 padding: .5rem 1rem;
 width: 55%;
-@media screen and (max-width:1200px){
+@media screen and (max-width:992px){
     width: 95%;
 }
 `
@@ -47,6 +48,50 @@ export const ReferralWorks = styled.div`
 background: #ffffff;
 box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.18);
 margin: 1.5rem;
-padding:10rem;
-text-align: center;
+padding:1.5rem 1rem;
+width:40%;
+height: fit-content;
+@media screen and (max-width:992px){
+    width: 95%;
+}
+
+`
+export const LogoSpan = styled.div`
+background: #1abc9c;
+color: #ffffff;
+font-size:1.8rem;
+text-align:center;
+border-radius:50rem;
+height:3rem;
+width:3rem;
+margin:1rem 0;
+z-index:2;
+` 
+export const ReferWork = styled.div`
+display: flex;
+text-align:start;
+`
+export const ArrowDiv = styled.div`
+height:29rem;
+width:.3rem;
+margin: 1rem 1.25rem;
+position:absolute;
+z-index:1;
+background:#1abc9c;
+@media screen and (max-width:1198px){
+    height:33rem;
+}
+@media screen and (max-width:992px){
+    height:22rem;
+}
+@media screen and (max-width:766px){
+    height:28rem;
+}
+@media screen and (max-width:463px){
+    height:30.6rem;
+}
+@media screen and (max-width:389px){
+    height:35rem;
+}
+
 `
