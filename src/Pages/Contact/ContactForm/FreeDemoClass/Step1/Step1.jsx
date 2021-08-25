@@ -1,13 +1,7 @@
 import React from 'react'
-<<<<<<< HEAD
-import { Form, Button } from 'react-bootstrap';
-const Step1 = ({ navigation }) => {
-    function handleSubmit(e) {
-=======
 import { Form,Button,ProgressBar} from 'react-bootstrap';
 const Step1 = ({navigation}) => {
     function handleSubmit(e){
->>>>>>> f58cf36b1b2e2cb7174af2ea15884635634197a6
         e.preventDefault()
         navigation.next()
     }

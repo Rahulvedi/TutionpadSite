@@ -9,7 +9,7 @@ const About = () => {
         <>
             <Header/>
             <div className="sec0" style={{
-                'background-color':'#E6F0F9'   
+                backgroundColor:'#E6F0F9'   
             }}>
             <Sec0/>
             </div> 
@@ -17,13 +17,13 @@ const About = () => {
                     <Sec2/>
             </div>
             <div className="container-fluid" style={{
-                'background-color':'#E6F0F9'   
+                backgroundColor:'#E6F0F9' 
             }}>
             {/* <Sec3/> */}
             </div>
             <div className="container-fluid"
             style={{
-                'background-color':'#E6F0F9'   
+                backgroundColor:'#E6F0F9'  
             }}>
                 <Sec4/>
             </div>

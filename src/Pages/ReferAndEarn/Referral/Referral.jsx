@@ -8,7 +8,7 @@ const Referral = () => {
              <ReferralForm> 
                 <Paragraph>
                 <ReferImageSection>
-                    <ReferImg variant="top" src="https://mllwbi0cftpe.i.optimole.com/4e0vck0.Pdwa~4f6f8/w:auto/h:auto/q:90/https://tuitionpad.com/wp-content/uploads/2020/08/refer11.png"/>
+                    <ReferImg variant="top" src="/images/ReferForm.png"/>
                 </ReferImageSection>
                 <Title>Earn ₹1000 for each referral</Title>
                     Now, it pays to spread your love for Tuitionpad!
