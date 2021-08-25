@@ -16,8 +16,8 @@ const FreeDemoClass = () => {
     const props={navigation}
     switch (step.id) {
         case 'Step1': return <Step1 {...props}/>;
-        case 'Step2': return <Step1 {...props}/>;
-        case 'Step3': return <Step1 {...props}/>;
+        case 'Step2': return <Step2 {...props}/>;
+        case 'Step3': return <Step3 {...props}/>;
         default : return <Step1/>
     }
 }

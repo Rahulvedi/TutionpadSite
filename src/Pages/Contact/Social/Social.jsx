@@ -31,7 +31,7 @@ const Social = () => {
             <Icon><FaYoutube/></Icon>
             <Title>YouTube</Title>
             </Links> 
-            <Links as={Link} to='/signup-as-student'>
+            <Links as={Link} to='/signup-as-student'>  
             <Icon><FaInstagram/></Icon>
             <Title>Instagram</Title>
             </Links> 

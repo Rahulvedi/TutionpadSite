@@ -8,11 +8,16 @@ import ReferAndEarn from './Pages/ReferAndEarn/ReferAndEarn';
 import Login from './Pages/Auth/Login/Login'
 import RegisterAsStudent from './Pages/Auth/Register/ResgisterStudent'
 import ResgisterTeacher from './Pages/Auth/Register/RegisterTeacher';
+import StudentDashBoard from './Pages/DashBoard/StudentDashBoard/StudentDashBoard'
+import TeacherDashBoard from './Pages/DashBoard/TeacherDashBoard/TeacherDashBoard';
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route path='/' exact component={Home}/>
+          <Route path='/student-dashboard'  component={StudentDashBoard}/>
+          <Route path='/teacher-dashboard'  component={TeacherDashBoard}/>
           <Route path='/' exact component={Home}/>
           <Route path='/contactus' exact component={Contact}/>
           <Route path='/refer-earn' exact component={ReferAndEarn}/>
