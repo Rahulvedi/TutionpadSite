@@ -115,4 +115,6 @@ z-index: 10;
 `
 export const SubNavLinks=styled.li`
 padding: .5rem;
+text-decoration: none;
+color: black;
 `
