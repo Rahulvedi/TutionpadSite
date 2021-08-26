@@ -1,6 +1,5 @@
 import styled from "styled-components"
 export const Refer = styled.section`
-/* background:greenyellow; */
 display: flex;
 justify-content:space-evenly;
 width: auto;
@@ -10,12 +9,12 @@ width: auto;
 }
 `
 export const ReferralForm =styled.div`
-/* background:yellow; */
 margin: 1.5rem;
 padding: .5rem 1rem;
 width: 55%;
 @media screen and (max-width:992px){
     width: 95%;
+    margin: .5rem;
 }
 `
 export const ReferImg = styled.img`
@@ -41,6 +40,10 @@ text-align:center;
 export const ReferImage = styled.img`
 height: auto;
 width: 70%;
+@media screen and (max-width:772px){
+    width: 90%;
+}
+
 `
 // ReferImageSection Css Ends
 
@@ -48,11 +51,12 @@ export const ReferralWorks = styled.div`
 background: #ffffff;
 box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.18);
 margin: 1.5rem;
-padding:1.5rem 1rem;
+padding:1.5rem;
 width:40%;
 height: fit-content;
 @media screen and (max-width:992px){
     width: 95%;
+    margin: .5rem;
 }
 
 `
@@ -87,11 +91,14 @@ background:#1abc9c;
 @media screen and (max-width:766px){
     height:28rem;
 }
-@media screen and (max-width:463px){
+@media screen and (max-width:479px){
     height:30.6rem;
 }
-@media screen and (max-width:389px){
+@media screen and (max-width:407px){
     height:35rem;
+}
+@media screen and (max-width:369px){
+    height:37rem;
 }
 
 `

@@ -11,9 +11,9 @@ const Step2 = ({navigation}) => {
     }
     return (
         <>      
-                <p className="mb-3 py-1">Step 2/3 
+                <div className="mb-3 py-1">Step 2/3 
                 <ProgressBar now={66} label={`${66}%`} className="my-2" />
-                </p>   
+                </div>   
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>WhatsApp Contact Number <span style={{color:'blue'}}>*</span></Form.Label>

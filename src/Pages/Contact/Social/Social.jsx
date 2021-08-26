@@ -11,7 +11,7 @@ const Social = () => {
             <Icon><FaWhatsapp/></Icon>
             <Title>+91 7976649684</Title>
             </Links> 
-            <Links as={Link} to='mailto:hello@tuitionpad.com?body="Hello !"&subject="Tuition"'>
+            <Links  href='mailto:hello@tuitionpad.com?body= "Hello !" &subject="Tuition"'>
             <Icon><FaRegEnvelope/></Icon>
             <Title>hello@tuitionpad.com</Title>
             </Links> 

@@ -7,9 +7,9 @@ const Step3 = ({navigation}) => {
     }
     return (
         <>      
-                <p className="mb-3 py-1">Step 3 
+                <div className="mb-3 py-1">Step 3 
                 <ProgressBar now={100} label={`${100}%`} className="my-2" />
-                </p>      
+                </div>      
                 <Form> 
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Select UPI App <span style={{color:'blue'}}>*</span></Form.Label>
