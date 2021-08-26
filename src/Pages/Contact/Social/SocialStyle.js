@@ -14,7 +14,7 @@ padding: 3rem 12rem;
 /* background:whitesmoke; */
 
 `
-export const Links=styled.div`
+export const Links=styled.a`
 display:flex;
 /* background: greenyellow; */
 color:black;

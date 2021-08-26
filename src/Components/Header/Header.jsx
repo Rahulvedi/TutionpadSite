@@ -13,8 +13,8 @@ const Header = () => {
     return (
         <Nav>
             <NavbarWrapper>
-            <Left>
-                <Logo src='/images/logo-alt.svg'/>
+            <Left as={Link} to='/'>
+                <Logo src='/images/logo-alt.svg' />
             </Left>
             <Right click={MenuIsOpen}>
                 <NavItems>

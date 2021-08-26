@@ -10,7 +10,7 @@ const ReferAndEarn = () => {
           <Header/>  
           <Referral/>
           <ReferImageSection>
-            <ReferImage src="https://mllwbi0cftpe.i.optimole.com/4e0vck0.Pdwa~4f6f8/w:auto/h:auto/q:90/https://tuitionpad.com/wp-content/uploads/2020/09/referal-image21.png"/>
+            <ReferImage src="/images/referal-image.png"/>
           </ReferImageSection>
           <QueriesTermsCondition/>
           <Footer />

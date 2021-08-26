@@ -1,12 +1,15 @@
 import styled from "styled-components"
 export const QueriesTermsAndCondition = styled.section`
-background: #f4f4ff;
+/* background: #f4f4ff; */
 padding: 1rem;
 `
 export const Queries = styled.div`
 padding:1rem 10rem;
  @media screen and (max-width:1024px){
     padding:1rem .7rem;
+ }
+ .accordion-item{
+    border: 1px solid lightgray;
  }
 `
 export const Title = styled.h1`
