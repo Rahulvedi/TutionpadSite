@@ -33,11 +33,12 @@ padding-bottom:1rem;
 
 export const UnorderdList = styled.ul`
 /* background: yellowgreen; */
-list-style:circle !important;
+list-style:circle;
 
 `
 export const LiItem = styled.li`
 padding: .3rem ;
+list-style:square;
 
 `
 

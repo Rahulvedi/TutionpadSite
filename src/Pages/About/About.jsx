@@ -9,7 +9,7 @@ const About = () => {
         <>
             <Header/>
             <div className="sec0" style={{
-                backgroundColor:'#E6F0F9'   
+                backgrondColor:'#E6F0F9'   
             }}>
             <Sec0/>
             </div> 
