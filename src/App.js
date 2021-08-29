@@ -12,7 +12,7 @@ import ResgisterTeacher from './Pages/Auth/Register/RegisterTeacher';
 import Error404 from "./Pages/Error404/Error404";
 import StudentDashBoard from './Pages/DashBoard/StudentDashBoard/StudentDashBoard'
 import TeacherDashBoard from './Pages/DashBoard/TeacherDashBoard/TeacherDashBoard'
-import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
+import {ScrollToTop} from './Components/default'
 function App() {
   return (
     <div className="App">
@@ -20,7 +20,7 @@ function App() {
         <ScrollToTop/>
         <Switch>
           <Route path='/' exact component={Home}/>
-          <Route path='/student-dashboard'  component={StudentDashBoard}/>
+          <Route path='/student-dashboard' component={StudentDashBoard}/>
           <Route path='/teacher-dashboard'  component={TeacherDashBoard}/>
           <Route path='/contactus' exact component={Contact}/>
           <Route path='/invite' exact component={ReferAndEarn}/>
