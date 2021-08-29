@@ -1,6 +1,6 @@
 import React from 'react'
 import { Section,Title,ViewAllButton,TopBar,Teachers } from '../Sec3/Sec3Styles'
-import TeacherCard from '../../../../Components/TeacherCard/TeacherCard'
+import { TeacherCard } from '../../../../Components/default'
 const Sec3 = () => {
     return (
         <Section>
