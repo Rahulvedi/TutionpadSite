@@ -7,6 +7,7 @@ import {
   FooterLink,
   Heading,
 } from "./FooterStyle";
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -22,11 +23,11 @@ const Footer = () => {
         <Row>
           <Column>
             <Heading>Quick Links</Heading>
-            <FooterLink href="#">About Us</FooterLink>
+            <FooterLink as={Link} to='/aboutus'>About Us</FooterLink>
             <FooterLink href="#">Free Demo Class</FooterLink>
-            <FooterLink href="#">Refer and Earn</FooterLink>
-            <FooterLink href="#">Become a Teacher</FooterLink>
-            <FooterLink href="#">Contact Us</FooterLink>
+            <FooterLink as={Link} to='/invite'>Refer and Earn</FooterLink>
+            <FooterLink as={Link} to='/teacher'>Become a Teacher</FooterLink>
+            <FooterLink as={Link} to='/contactus'>Contact Us</FooterLink>
             <FooterLink href="#">Blog</FooterLink>
             <FooterLink href="#">Privacy Policy</FooterLink>
             <FooterLink href="#">Terms of Use</FooterLink>
