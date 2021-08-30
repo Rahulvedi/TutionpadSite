@@ -46,7 +46,9 @@ const Section2 = () => {
                             For a clear voice and audio, you need good quality Headphone with Mic.
                         </Card3> 
                     </Cards>
-                    <Info><HiInformationCircle style={{'fontSize':'2.5rem','color':'#f8596a', 'padding':'.1rem .3rem'}}/>Do you need the best suggestions for the above devices? Find here the devices used by our tutors.</Info>
+                    <Info>
+                        <HiInformationCircle style={{'fontSize':'2.5rem','color':'#f8596a', 'padding':'.1rem .3rem'}}/>
+                        Do you need the best suggestions for the above devices? Find here the devices used by our tutors.</Info>
                 </div>
                 <Button variant="danger"> APPLY NOW</Button>
             </Container>
