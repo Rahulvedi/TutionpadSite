@@ -60,7 +60,7 @@ const Section3 = () => {
         </Sec5>
             
         <Sec6>
-            <h1><b>Our Expectations From Teacher</b></h1>
+            <h1><b>Our Teacher Selection Process</b></h1>
             <Process>
                 <b>
                 <Title>
