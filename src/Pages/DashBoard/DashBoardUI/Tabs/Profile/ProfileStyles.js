@@ -39,11 +39,17 @@ max-width: 120rem;
 margin: auto;
 padding: 5rem;
 display: flex;
+background: #F5F7F8;
+
 `
 export const Tabs=styled.div`
 display: flex;
 flex-direction: column;
-width: 40%;
+width: 30%;
+position:sticky;
+top: 5rem;
+left: 0;
+height: 500px;
 `
 export const Tab=styled.div`
 padding:.5rem;
@@ -57,5 +63,9 @@ color: black;
 }
 `
 export const Content=styled.div`
-width: 60%;
+width: 70%;
+background-color: white;
+border-radius: 5px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+padding: 1rem;
 `

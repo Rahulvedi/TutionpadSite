@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { AccountInfo, CalenderSettings, ClassConfirmation, Notifications, PaymentHistory, PaymentSetting, } from './Tabs/default'
+import {ScrollToTop} from '../../../../../Components/default'
 import { Container, CoverImg, Info, ProfileImg, Name, Edit, Settings, Tabs, Content, Tab, Options } from './ProfileStyles'
 const Profile = ({ match }) => {
     console.log(match)
@@ -14,6 +15,7 @@ const Profile = ({ match }) => {
             </Info>
             <Settings>
                 <Router>
+                    <ScrollToTop/>
                     <Tabs>
                         <Tab><Options to={`${match.path}`}>Account Information</Options></Tab>
                         <Tab><Options to={`${match.path}/payment-setting`}>Payment Settings</Options></Tab>

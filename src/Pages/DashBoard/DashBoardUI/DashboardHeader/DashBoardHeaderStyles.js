@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link} from 'react-router-dom'
 export const Nav = styled.nav`
   width: 100%;
   height: 4rem;
@@ -94,6 +95,7 @@ background-color: white;
     top: 0;
     opacity: 1;
     visibility: visible;
+    display: none;
 }
 `
 export const DropdownItem=styled.div`
@@ -112,3 +114,36 @@ export const MenuIcon = styled.div`
     display: block;
   }
 `;
+
+export const MenuItems=styled.div`
+display: none;
+width: 100%;
+margin-top: 1rem;
+padding: 1rem;
+@media screen and (max-width:768px){
+  display: block;
+}
+`
+export const MenuItem=styled.div`
+margin: .5rem;
+padding: .5rem;
+`
+export const Item=styled(Link)`
+text-decoration: none;
+font-size: 1rem;
+color: black;
+&:hover{
+  color: #007770;
+}
+`
+
+export const LogoutButton=styled.button`
+display: block;
+border: none;
+outline: none;
+margin: auto;
+padding:.8rem;
+background: #007770;
+border-radius: 10px;
+color: white;
+`

@@ -6,8 +6,8 @@ import { Profile,Classes,Messages,Report,Disputes,Favroutes,Payment, Orders, Req
 const StudentDashBoard = ({ match, location, history }) => {
     return (
         <>
-            <DashBoardHeader />
             <Router>
+            <DashBoardHeader match={match}/>
                 <SubDashBoardHeader match={match} />
                 <Switch>
                     <Route path={`${match.path}`} exact component={Classes} />
@@ -15,7 +15,7 @@ const StudentDashBoard = ({ match, location, history }) => {
                     <Route path={`${match.path}/messages`} component={Messages} />
                     <Route path={`${match.path}/report`} component={Report} />
                     <Route path={`${match.path}/disputes`} component={Disputes} />
-                    <Route path={`${match.path}/favroutes`} component={Favroutes} />
+                    <Route path={`${match.path}/favourites`} component={Favroutes} />
                     <Route path={`${match.path}/payment`} component={Payment} />
                     <Route path={`${match.path}/orders`} component={Orders} />
                     <Route path={`${match.path}/requirements`} component={Requirments} />
