@@ -40,7 +40,15 @@ margin: auto;
 padding: 5rem;
 display: flex;
 background: #F5F7F8;
-
+@media screen and (max-width:924px){
+  padding:5rem 3rem;
+}
+@media screen and (max-width:768px){
+  padding:5rem 2rem;
+}
+@media screen and (max-width:540px){
+  padding:5rem 1rem;
+}
 `
 export const Tabs=styled.div`
 display: flex;
@@ -59,7 +67,7 @@ export const Options=styled(Link)`
 text-decoration: none;
 color: black;
 &:hover{
-    color: black;
+  color:#00A79D;
 }
 `
 export const Content=styled.div`

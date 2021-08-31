@@ -1,5 +1,5 @@
-import { Form } from "react-bootstrap";
 import styled from "styled-components";
+import {Form} from 'react-bootstrap'
 export const Heading = styled.h3``;
 export const ImgSection = styled.div`
 display: flex;
@@ -10,47 +10,16 @@ height: 300px;
  flex-direction: column;
 }
 `;
-
 export const Img = styled.img`
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+ 
   @media screen and (max-width:768px){
-    width: 100px;
-    height:100px;
+    width: 200px;
+    height:155px;
   }
   @media screen and (max-width:540px){
  margin-bottom: 2rem;
 }
 `;
-
-export const UploadImgButton = styled.button`
-  border: none;
-  outline: none;
-  font-size: 1.2rem;
-  padding: .8rem 1.5rem;
-  background: #007770;
-  color: white;
-  font-weight: 500;
-  border-radius: 10px;
-  margin-bottom: .5rem;
-  @media screen and (max-width:768px){
-    font-size: 1rem;
-    padding: .6rem 1.2rem;
-  }
-`;
-export const UploadImg = styled.div`
-margin-left: 2rem;
-@media screen and (max-width:540px){
-  margin-left: 1rem;
-}
-`
-
-export const Text=styled.p`
-margin-bottom: 2px;
-color: #8D8C8C;
-`
-
 export const Details=styled(Form)`
 padding: 2rem;
 `

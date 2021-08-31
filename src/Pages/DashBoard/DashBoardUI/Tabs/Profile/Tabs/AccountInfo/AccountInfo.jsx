@@ -1,5 +1,5 @@
 import React from 'react'
-import {Heading,ImgSection,UploadImgButton,Img,UploadImg,Text,Details,Group,Label,Input} from './AccountInfoStyles'
+import {Heading,ImgSection,UploadImgButton,Img,UploadImg,Text,Details,Group,Label,Input,UpdateButton} from './AccountInfoStyles'
 const AccountInfo = () => {
     return (
         <>
@@ -25,6 +25,11 @@ const AccountInfo = () => {
                     <Label>Phone No.:</Label>
                     <Input type="tel" placeholder="Phone No."/>
                 </Group>
+                <Group className="mb-3">
+                    <Label>Address:</Label>
+                    <Input type='text' placeholder="Address" />
+                </Group>
+                <UpdateButton>Update</UpdateButton>
             </Details>
         </>
     )

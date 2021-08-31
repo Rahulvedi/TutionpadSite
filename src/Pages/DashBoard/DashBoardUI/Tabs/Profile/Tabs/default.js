@@ -1,7 +1,7 @@
 import AccountInfo from "./AccountInfo/AccountInfo";
 import CalenderSettings from "./CalenderSettings/CalenderSettings";
-import PaymentSetting from "./PaymentSettings/PaymentSetting";
 import ClassConfirmation from "./ClassConfirmation/ClassConfirmation";
 import Notifications from "./Notifications/Notifications";
-import PaymentHistory from "./PaymentHistory/PaymentHistory";
-export {AccountInfo,PaymentHistory,Notifications,ClassConfirmation,PaymentSetting,CalenderSettings}
+import Password from "./Password/Password";
+import Email from "./Email/EmailSettings";
+export {AccountInfo,Password,Notifications,ClassConfirmation,CalenderSettings ,Email}
