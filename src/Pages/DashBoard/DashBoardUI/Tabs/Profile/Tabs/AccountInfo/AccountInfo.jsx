@@ -5,7 +5,7 @@ const AccountInfo = () => {
         <>
             <Heading>Account Settings</Heading>
             <ImgSection>
-                <Img src='/images/ProfileImg.jpg' alt='ProfileImg'></Img>
+                <Img src='/images/ProfileImg.jpeg' alt='ProfileImg'></Img>
                 <UploadImg>
                 <UploadImgButton>Upload Image</UploadImgButton>
                 <Text>Maximum size - 1MB.</Text>

@@ -8,7 +8,7 @@ const Profile = ({ match }) => {
         <Container>
             <CoverImg src='/images/BannerImg.jpeg' />
             <Info>
-                <ProfileImg src='/images/ProfileImg.jpg' alt='ProfileImg' />
+                <ProfileImg src='/images/ProfileImg.jpeg' alt='ProfileImg' />
                 <Name>Student Name</Name>
                 <Edit />
             </Info>

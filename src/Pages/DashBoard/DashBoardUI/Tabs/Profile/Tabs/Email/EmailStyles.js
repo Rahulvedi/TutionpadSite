@@ -47,7 +47,7 @@ width: 70%;
 export const UpdateButton=styled.button`
 border: none;
 outline: none;
-padding: 1rem 2rem;
+padding: .7rem 1.3rem;
 background-color: #007770;
 border-radius: 10px;
 color: white;
