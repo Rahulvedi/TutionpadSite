@@ -8,32 +8,32 @@ const Notifications = () => {
  
             <Details>   
             <h4 className="mb-5">Email Notifications</h4>                      
-                <Group className="mb-3" >
-                    <Input type="checkbox" />
+                <Group>
+                    <Input type="checkbox"/>
                     <Label> <b>General Reminders</b><br/>
                     Notifications about lessons, tutor messages, and payments.
                     </Label>
                 </Group>
-                <Group className="mb-3">
-                    <Input type="checkbox" />
+                <Group>
+                    <Input type="checkbox"/>
                     <Label> <b>Updates, tips and offerss</b><br/>
                     Stay connected with product updates, helpful tips and special offers.
                     </Label>
                 </Group>
-                <Group className="mb-3">
-                    <Input type="checkbox" />
+                <Group>
+                    <Input type="checkbox"/>
                     <Label> <b>Tuitionpad Blog</b><br/>
                     Occasional newsletter with the latest posts.
                     </Label>
                 </Group>
-                <Group className="mb-3">
-                    <Input type="checkbox" />
-                    <Label> <b>Q  and A section</b><br/>
+                <Group>
+                    <Input type="checkbox"/>
+                    <Label> <b>Q & A section</b><br/>
                     Receive tutors’ replies to your questions.
                     </Label>
                 </Group>                        
-                <Group className="mb-3">
-                    <Input type="checkbox" />
+                <Group>
+                    <Input type="checkbox"/>
                     <Label> <b>Lessons and messages</b><br/>
                     SMS alerts about tutors' first responses to your requests and trial lesson reminders.
                     </Label>
