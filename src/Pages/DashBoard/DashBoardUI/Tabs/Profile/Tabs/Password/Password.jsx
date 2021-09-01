@@ -9,16 +9,16 @@ const Password = () => {
         </ImgSection>
         <Details>
                   <Group className="mb-3">
-                      <Label>New Password:</Label>
-                      <Input type="password" />
+                      <Label htmlFor='newpassword'>New Password:</Label>
+                      <Input id='newpassword' type="password" />
                   </Group>
                   <Group className="mb-3">
-                      <Label>Confirm Password:</Label>
-                      <Input type="password" />
+                      <Label htmlFor='confirmpassword'>Confirm Password:</Label>
+                      <Input id='confirmpassword' type="password" />
                   </Group>
                   <Group className="mb-3">
-                      <Label>Verification Code:</Label>
-                      <Input type="number"/>
+                      <Label htmlFor='code'>Verification Code:</Label>
+                      <Input id='code' type="number"/>
                   </Group>
                   <UpdateButton>Update</UpdateButton>
               </Details>

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {Form} from 'react-bootstrap'
-export const Heading = styled.h3``;
+export const Heading = styled.h3`
+`;
 export const ImgSection = styled.div`
 display: flex;
 justify-content: center;

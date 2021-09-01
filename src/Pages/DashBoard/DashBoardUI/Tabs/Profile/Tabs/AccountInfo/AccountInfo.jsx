@@ -14,20 +14,20 @@ const AccountInfo = () => {
             </ImgSection>
             <Details>
                 <Group className="mb-3">
-                    <Label>First Name:</Label>
-                    <Input type="text" placeholder="First Name"/>
+                    <Label htmlFor='firstname'>First Name:</Label>
+                    <Input id='firstname' type="text" placeholder="First Name"/>
                 </Group>
                 <Group className="mb-3">
-                    <Label>Last Name:</Label>
-                    <Input type="text" placeholder="Last Name"/>
+                    <Label htmlFor='lastname'>Last Name:</Label>
+                    <Input id='lastname'type="text" placeholder="Last Name"/>
                 </Group>
                 <Group className="mb-3">
-                    <Label>Phone No.:</Label>
-                    <Input type="tel" placeholder="Phone No."/>
+                    <Label htmlFor='phoneno.'>Phone No.:</Label>
+                    <Input id='phoneno.'type="tel" placeholder="Phone No."/>
                 </Group>
                 <Group className="mb-3">
-                    <Label>Address:</Label>
-                    <Input type='text' placeholder="Address" />
+                    <Label htmlFor='address'>Address:</Label>
+                    <Input id='address' type='text' placeholder="Address" />
                 </Group>
                 <UpdateButton>Update</UpdateButton>
             </Details>

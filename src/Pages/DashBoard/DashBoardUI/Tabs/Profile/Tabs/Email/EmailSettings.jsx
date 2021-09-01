@@ -9,16 +9,16 @@ const EmailSettings = () => {
       </ImgSection>
       <Details>
                 <Group className="mb-3">
-                    <Label>Email:</Label>
-                    <Input type="email" placeholder="xyz@gmail.com"/>
+                    <Label htmlFor='email'>Email:</Label>
+                    <Input id='email' type="email" placeholder="xyz@gmail.com"/>
                 </Group>
                 <Group className="mb-3">
-                    <Label>New Email:</Label>
-                    <Input type="email" placeholder="xyz@gmail.com"/>
+                    <Label htmlFor='newemail'>New Email:</Label>
+                    <Input id='newemail'type="email" placeholder="xyz@gmail.com"/>
                 </Group>
                 <Group className="mb-3">
-                    <Label>Verification Code:</Label>
-                    <Input type="number" placeholder="Code"/>
+                    <Label htmlFor='code'>Verification Code:</Label>
+                    <Input id='code' type="number" placeholder="Code"/>
                 </Group>
                 <UpdateButton>Update</UpdateButton>
             </Details>
