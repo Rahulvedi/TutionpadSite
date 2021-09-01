@@ -8,6 +8,7 @@ padding: 2rem;
 export const Group=styled(Form.Group)`
 padding:.65rem;
 border-radius:10px;
+margin-bottom:3rem;
 background:#C8FFFC;
 
 `
@@ -15,14 +16,11 @@ export const Label=styled.label`
 font-size:1rem;
 `
 export const Input=styled.input`
- &:checked{
-    background:#6BFCF3;
-    color:#007770;
-    font-size:1.5rem;
-    padding:.5rem;
-    border-radius:20rem;
-  }
-
+  height: 35px;
+  width: 35px;
+  margin: .2rem .65rem;
+    /* background:#6BFCF3;
+    color:#007770; */
 `
 
 export const UpdateButton=styled.button`
