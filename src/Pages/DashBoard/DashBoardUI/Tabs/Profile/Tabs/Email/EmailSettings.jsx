@@ -4,6 +4,7 @@ const EmailSettings = () => {
     return (
         <>   
       <Heading>Email Settings</Heading>
+      <hr/>
       <ImgSection>
         <Img src='/images/ProfileImgs/Email.svg' alt='ProfileImg'></Img>
       </ImgSection>

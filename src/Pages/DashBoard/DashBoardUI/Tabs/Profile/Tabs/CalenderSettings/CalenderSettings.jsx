@@ -4,6 +4,7 @@ const CalenderSettings = () => {
     return (
         <>
             <Heading>Calender Settings</Heading>
+            <hr/>
             <ImgSection>
                 <Img src='/images/ProfileImgs/GoogleCalendar.svg' alt='ProfileImg'></Img>
             </ImgSection>

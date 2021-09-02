@@ -17,11 +17,19 @@ export const Info = styled.div`
   position: absolute;
   top: 75px;
   left: 80px;
+  @media screen and (max-width:768px){
+    top: 115px;
+    left: 20px;
+  }
 `;
 export const ProfileImg = styled.img`
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  @media screen and (max-width:768px){
+    width: 80px;
+  height: 80px;
+  }
 `;
 export const Name = styled.h3`
   font-size: 1.5rem;
@@ -45,6 +53,7 @@ background: #F5F7F8;
 }
 @media screen and (max-width:768px){
   padding:5rem 2rem;
+  flex-direction: column;
 }
 @media screen and (max-width:540px){
   padding:5rem 1rem;
@@ -58,10 +67,23 @@ position:sticky;
 top: 5rem;
 left: 0;
 height: 500px;
+@media screen and (max-width:768px){
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: unset;
+  position: unset;
+  top: 4rem;
+}
 `
 export const Tab=styled.div`
 padding:.5rem;
 margin:.5rem;
+@media screen and (max-width:768px){
+background-color: white;
+border-radius: 5px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 `
 export const Options=styled(Link)`
 text-decoration: none;
@@ -76,4 +98,7 @@ background-color: white;
 border-radius: 5px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 padding: 1rem;
+@media screen and (max-width:768px){
+  width: 100%;
+}
 `
