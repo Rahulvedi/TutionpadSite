@@ -28,6 +28,12 @@ export const Details = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (max-width:768px){
+  padding: 1rem;
+}
+@media screen and (max-width:540px){
+  padding: 0;
+}
 `;
 export const Title = styled.p`
   font-size: 1.5rem;

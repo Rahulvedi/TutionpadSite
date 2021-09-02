@@ -11,7 +11,12 @@ export const Text=styled.p``
 
 export const ClassReview=styled.div`
 display: flex;
-justify-content: center;
+flex-direction: column;
+align-items: center;
+.active{
+    border: 2px solid #007770;
+    color: #007770;
+}
 `
 
 
@@ -27,4 +32,24 @@ font-weight: 500;
 display: block;
 margin: auto;
 margin-top: 2rem;
+`
+export const Options=styled.div`
+cursor: pointer;
+width: 50%;
+text-align: center;
+padding: .5rem;
+margin: .5rem;
+background: #FEFEFE;
+border: 2px solid #DBDBDB;
+box-sizing: border-box;
+border-radius: 5px;
+color:#344645;
+&:hover{
+    border: 2px solid #007770;
+    color: #007770;
+}
+@media screen and (max-width:768px){
+    width: 100%;
+}
+
 `

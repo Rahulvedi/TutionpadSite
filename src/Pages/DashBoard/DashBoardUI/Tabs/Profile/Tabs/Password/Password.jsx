@@ -4,6 +4,7 @@ const Password = () => {
     return (
         <>
         <Heading>Change Password</Heading>
+        <hr/>
         <ImgSection>
           <Img src='/images/ProfileImgs/Password.svg' alt='ProfileImg'></Img>
         </ImgSection>

@@ -23,6 +23,12 @@ export const Img = styled.img`
 `;
 export const Details=styled(Form)`
 padding: 2rem;
+@media screen and (max-width:768px){
+  padding: 1rem;
+}
+@media screen and (max-width:540px){
+  padding: 0;
+}
 `
 export const Group=styled(Form.Group)`
 display: flex;

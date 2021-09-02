@@ -4,6 +4,7 @@ const AccountInfo = () => {
     return (
         <>
             <Heading>Account Settings</Heading>
+            <hr/>
             <ImgSection>
                 <Img src='/images/ProfileImg.jpeg' alt='ProfileImg'></Img>
                 <UploadImg>
