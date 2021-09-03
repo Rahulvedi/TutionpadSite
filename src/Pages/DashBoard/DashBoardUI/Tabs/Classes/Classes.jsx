@@ -1,9 +1,12 @@
 import React from 'react'
+import NoTutors from './NoTutors/NoTutors'
+// import HiredTutors from './HiredTutors/HiredTutors'
 
 const Classes = () => {
     return (
         <div>
-            classes
+            <NoTutors/>
+            {/* <HiredTutors/> */}
         </div>
     )
 }
