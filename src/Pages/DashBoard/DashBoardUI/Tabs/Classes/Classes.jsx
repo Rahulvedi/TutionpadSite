@@ -1,10 +1,10 @@
 import React from 'react'
-
+import {} from './ClassesStyles'
 const Classes = () => {
     return (
-        <div>
-            classes
-        </div>
+        <>
+            
+        </>
     )
 }
 

@@ -3,8 +3,6 @@ import {Link} from 'react-router-dom'
 export const Nav = styled.nav`
   width: 100%;
   height: 4rem;
-  top: 0; 
-  position: sticky;
   transition: all ease-in 0.2s;
   background-color: white;
   z-index: 10;
