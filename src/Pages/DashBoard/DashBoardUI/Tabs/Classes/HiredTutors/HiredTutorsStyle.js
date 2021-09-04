@@ -1,66 +1,66 @@
 import styled from "styled-components";
-export const NoTutor = styled.div`
-padding:2rem .6rem ;
+export const Navbar = styled.div`
+padding:.7rem 1rem;
 display: flex;
-justify-content: center;
+justify-content:space-evenly;
 align-items: center;
-flex-direction: column;
-`
-export const ImgSection = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-height: 300px;
-@media screen and (max-width:540px){
- flex-direction: column;
-}
-`
-export const Img = styled.img`
- 
-  @media screen and (max-width:768px){
-    width: 200px;
-    height:155px;
-  }
-  @media screen and (max-width:540px){
- margin-bottom: 1rem;
-}
+background:yellowgreen;
 `
 
-export const SearchTutors=styled.button`
+export const Alarm=styled.button`
 border: none;
 outline: none;
-padding: .7rem 1.3rem;
-background-color: #007770;
-border-radius: 10px;
-color: white;
-font-size: 1rem;
-font-weight: 500;
-display: block;
-margin-top: 2rem;
-margin: auto;
-`
-export const Trending=styled.button`
-border: none;
-outline: none;
-padding: .7rem 1.3rem;
+padding: .5rem 1rem;
 background-color:#6BFCF3;
 border-radius: 10px;
 font-size: 1rem;
 font-weight: 500;
-margin-right: .8rem;
 `
-export const Subjects = styled.div`
-padding:1rem .76rem;
+export const Time = styled.div`
+`
+export const Message=styled.button`
+border: none;
+outline: none;
+background-color:#ffffff;
+font-size: 1rem;
+font-weight: 500;
+margin: 0 .5rem;
+`
+export const JoinClass=styled.button`
+border: none;
+outline: none;
+padding: .2rem .5rem;
+background-color:#007770;
+color:#ffffff;
+border-radius: 15px;
+font-size: 1rem;
+font-weight: 500;
+margin: 0 .5rem;
+`
+export const Profile = styled.div`
 display: flex;
-justify-content: space-between;
-@media screen and (max-width:768px){
-    flex-direction:column;
-  }
-
+justify-content: center;
+align-items: center;
+width:fit-content;
+font-weight:bold;
 `
-export const Subject = styled.div`
-padding:4.5rem ;
-margin:1rem;
-background:grey;
+export const ProfileImg=styled.img`
+width: 3.2rem;
+height: 3.2rem;
+border-radius: 2rem;
+cursor: pointer;
 
+@media screen and (max-width: 768px){
+    border-radius: 50%;
+    width: 40%;
+    height: 150px;
+    margin: 1rem 0;
+}
 `
+export const Text=styled.p`
+margin: 0 .5rem;
+font-weight: bold;
+`
+
+
+

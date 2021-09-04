@@ -61,6 +61,5 @@ justify-content: space-between;
 export const Subject = styled.div`
 padding:4.5rem ;
 margin:1rem;
-background:grey;
 
 `

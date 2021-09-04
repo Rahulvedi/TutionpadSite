@@ -1,18 +1,22 @@
 import React from 'react'
-import {NoTutor,SearchTutors,ImgSection,Img} from './HiredTutorsStyle';
-// import {FiTrendingUp} from 'react-icons/fi';
+import {Alarm,Navbar,Time,Message,JoinClass,Profile,ProfileImg,Text} from './HiredTutorsStyle';
+import {IoMdAlarm} from 'react-icons/io';
+import {BiMessageDetail} from 'react-icons/bi';
+import {FaTelegramPlane} from 'react-icons/fa';
 const HiredTutors = () => {
+    let time= new Date().toLocaleString();
     return (
         <>
-            <NoTutor>
-                <ImgSection>
-                     <Img src='/images/Classes/ClassesHome.svg' alt='HomeImg'/>
-                 </ImgSection>
-                <h3 className="py-1"><b>It seems you havn’t hired any tutor yet!</b></h3>
-                <p>Please find a suitable teacher that fits in your requirements
-                and fix a demo class....you will see that here</p>
-                <SearchTutors>Search Tutors</SearchTutors>
-            </NoTutor>
+            <Navbar>
+                <Alarm><IoMdAlarm className='fs-3'/> Upcoming Class</Alarm>
+                <Time>{time}</Time>
+                <Message><BiMessageDetail className='fs-3'/> Message</Message>
+                <JoinClass> <FaTelegramPlane className='fs-4'/> Join Class</JoinClass>
+                <Profile>
+                    <ProfileImg src='/images/ProfileImg.jpeg' />
+                    <Text>Tutors Name</Text>
+                </Profile>
+            </Navbar>
             
         </>
     )
