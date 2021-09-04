@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 export const Nav=styled.nav`
 display: flex;
 background: #00A79D;
+top: 0; 
+  position: sticky;
+  z-index: 1;
 @media screen and (max-width:768px){
     display: none;
 }
