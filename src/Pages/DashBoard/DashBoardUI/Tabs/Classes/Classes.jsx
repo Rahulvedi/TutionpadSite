@@ -1,10 +1,13 @@
 import React from 'react'
-import {} from './ClassesStyles'
+import NoTutors from './NoTutors/NoTutors'
+// import HiredTutors from './HiredTutors/HiredTutors'
+
 const Classes = () => {
     return (
-        <>
-            
-        </>
+        <div>
+            <NoTutors/>
+            {/* <HiredTutors/> */}
+        </div>
     )
 }
 
