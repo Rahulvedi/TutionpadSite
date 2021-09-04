@@ -1,5 +1,6 @@
 import styled from "styled-components";
-export const Navbar = styled.div`
+export const Nav = styled.div`
+background-color:#ffffff;
 padding:.7rem 1rem;
 display: flex;
 justify-content:space-evenly;
@@ -53,13 +54,53 @@ cursor: pointer;
     border-radius: 50%;
     width: 40%;
     height: 150px;
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 `
 export const Text=styled.p`
 margin: 0 .5rem;
 font-weight: bold;
 `
+
+
+
+export const Content = styled.div`
+margin: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  background:#ffffff;
+  /* .render-switch{
+      padding: 2rem;
+      background:green;
+  }
+  .render-switch-items{
+      margin: 1rem 0;
+      border: 1px solid lightgray;
+  } */
+`;
+export const Tabs = styled.div`
+width: 100%;
+display: flex;
+  padding: .02rem .7rem;
+  border-bottom: 1.5px solid gray;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+  margin: 1rem 0 2rem 0;
+
+  .active {
+    border-bottom: 2px solid #007770;
+  }
+  
+`;
+export const Tab = styled.div`
+  padding: .1rem;
+  margin-right: 1.5rem;
+  font-weight:bolder;
+  cursor: pointer;
+  @media screen and (max-width: 768px){
+    margin-right: .5rem;
+}
+`
+
 
 
 
