@@ -4,7 +4,6 @@ padding:.7rem 1rem;
 display: flex;
 justify-content:space-evenly;
 align-items: center;
-background:yellowgreen;
 `
 
 export const Alarm=styled.button`
