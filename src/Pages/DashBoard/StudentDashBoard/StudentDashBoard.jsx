@@ -10,7 +10,7 @@ const StudentDashBoard = ({ match }) => {
             <Router>
             <DashBoardHeader match={match}/>
                 <SubDashBoardHeader match={match} />
-                <Content style={{backgroundColor:''}}>
+                <Content>
                 <Switch>
                     <Route path={`${match.path}`} exact component={Classes} />
                     <Route path={`${match.path}/profile`} component={Profile} />

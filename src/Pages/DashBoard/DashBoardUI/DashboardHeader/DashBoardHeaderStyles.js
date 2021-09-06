@@ -16,13 +16,14 @@ export const NavbarWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: white;
+   z-index: 10;
 `;
 export const Left = styled.div``;
 export const Right = styled.div`
  display: flex;
   /* align-items: center; */
   transition: all ease-in 0.2s;
- 
+
  @media screen and (max-width: 768px) {
     position: absolute;
     z-index: 1;
@@ -49,6 +50,7 @@ export const Profile=styled.div`
 display: flex;
 align-items: center;
 width: 100%;
+z-index: 3;
 @media screen and (max-width: 768px){
     flex-direction: column;
 }

@@ -19,7 +19,7 @@ const DashBoardHeader = ({match}) => {
                 </Left>
                 <Right click={MenuIsOpen}>
                     <Profile>
-                        <ProfileImg src='/images/ProfileImg.jpeg' />
+                        <ProfileImg src='/images/ProfileImg.jpg' />
                         <Text>Rahul</Text>
                         <Icon>
                             <BsFillCaretDownFill style={{ color: 'grey', cursor: 'pointer' }} onClick={() => { setDropDownOpen(!DropDownOpen) }} />

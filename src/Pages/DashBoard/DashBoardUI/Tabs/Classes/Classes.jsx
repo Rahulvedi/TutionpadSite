@@ -1,13 +1,14 @@
 import React from 'react'
-// import NoTutors from './NoTutors/NoTutors'
+import NoTutors from './NoTutors/NoTutors'
 import HiredTutors from './HiredTutors/HiredTutors'
+import { Container } from './ClassesStyles'
 
-const Classes = () => {
+const Classes = ({match}) => {
     return (
-        <div>
+        <Container>
             {/* <NoTutors/> */}
-            <HiredTutors/>
-        </div>
+            <HiredTutors match={match}/>
+        </Container>
     )
 }
 
