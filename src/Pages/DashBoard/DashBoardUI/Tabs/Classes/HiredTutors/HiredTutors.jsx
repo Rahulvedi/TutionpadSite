@@ -1,18 +1,25 @@
-import React, { useState } from 'react'
-import { TopBar, Left, Right, AlarmButton, Message, JoinNow, TutorInfo, ProfileImg, Name, ClassDetails, NavigationBar, NavigationItem, Content } from './HiredTutorsStyle';
+import React from 'react';
+import { TopBar, Left, Right, AlarmButton, Time,Message, JoinNow, TutorInfo, ProfileImg, Name, ClassDetails, NavigationBar, NavigationItem, Content } from './HiredTutorsStyle';
 import { IoMdAlarm } from 'react-icons/io';
 import { BiMessageDetail } from 'react-icons/bi';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import RecentClasses from './Tabs/RecentClasses/RecentClasses'
 import WeeklyGoals from './Tabs/WeeklyGoals/WeeklyGoals';
+import ClassesSchedule from './Tabs/ClassesSchedule/ClassesSchedule';
 const HiredTutors = ({ match }) => {
-    console.log(match)
+    function DisplayTime()
+        { 
+            return new Date().toString();
+        }
+        setInterval(DisplayTime,1000);
+
     return (
         <>
             <TopBar>
                 <Left>
                     <AlarmButton><IoMdAlarm style={{ fontSize: '1.5rem' }} />Upcoming Class</AlarmButton>
+                    <Time><DisplayTime/></Time>
                 </Left>
                 <Right>
                     <Message><BiMessageDetail />Message</Message>
@@ -36,6 +43,7 @@ const HiredTutors = ({ match }) => {
                         <Switch>
                             <Route path={`${match.path}`} exact component={RecentClasses}/>
                             <Route path={`${match.path}/weekly-goals`} exact component={WeeklyGoals}/>
+                            <Route path={`${match.path}/classes-schedule`} exact component={ClassesSchedule}/>
                         </Switch>
                     </Content>
                 </Router>

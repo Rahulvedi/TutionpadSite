@@ -1,5 +1,5 @@
 import React from 'react'
-import { Body, Head, Heading, Row ,Data,ProfileImg,Name} from './RecentClasses'
+import { Body, Head, Heading, Row ,Data,ProfileImg,Name} from './RecentClassesStyles'
 import { Table } from 'react-bootstrap'
 import { BiRupee } from "react-icons/bi"
 
@@ -26,19 +26,7 @@ const RecentClasses = () => {
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
-                    <Data>Table cell</Data>
-                    <Data>Table cell</Data>
-                    <Data>Table cell</Data>
-                </Row> 
-                <Row>
-                    <Data>
-                        <ProfileImg src="/images/ProfileImg.jpg"/>
-                        <Name>Rahul</Name>
-                        </Data>
-                    <Data>Table cell</Data>
-                    <Data>Table cell</Data>
-                    <Data>Table cell</Data>
-                    <Data>Table cell</Data>
+                    <Data><BiRupee/> Table cell</Data>
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
                 </Row> 
@@ -50,7 +38,7 @@ const RecentClasses = () => {
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
-                    <Data>Table cell</Data>
+                    <Data><BiRupee/> Table cell</Data>
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
                 </Row> 
@@ -62,7 +50,19 @@ const RecentClasses = () => {
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
+                    <Data><BiRupee/> Table cell</Data>
                     <Data>Table cell</Data>
+                    <Data>Table cell</Data>
+                </Row> 
+                <Row>
+                    <Data>
+                        <ProfileImg src="/images/ProfileImg.jpg"/>
+                        <Name>Rahul</Name>
+                        </Data>
+                    <Data>Table cell</Data>
+                    <Data>Table cell</Data>
+                    <Data>Table cell</Data>
+                    <Data><BiRupee/> Table cell</Data>
                     <Data>Table cell</Data>
                     <Data>Table cell</Data>
                 </Row> 
