@@ -185,6 +185,7 @@ margin: 0 1.84375rem;
 &:hover{
   color: black;
 }
+  
 `
 export const Content=styled.div`
 padding: 1rem;

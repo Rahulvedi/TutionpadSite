@@ -1,7 +1,7 @@
 import React from 'react'
-import {RecentClass,ProfileImg,Name,Heading,Tutor,Paragraph,Tutors,Subject,ClassDetails,Schedule,Reviews,Progress,ProgressSection,Bar,SubHeading,Price,Message} from './ClassesScheduleStyles'
-import { AiFillCheckCircle,AiFillStar } from "react-icons/ai";
-import { BiRupee,BiMessageDetail } from "react-icons/bi"
+import {RecentClass,ProfileImg,Name,Heading,Tutor,Navigator,Button,Tutors,Subject,ClassDetails,Schedule,SubHeading,Details,Dates,Date,Time,Headline,Head,Line,Month, Paragraph} from './ClassesScheduleStyles'
+import { AiFillCheckCircle,AiOutlineLeft,AiOutlineRight } from "react-icons/ai";
+
 
 
 const RecentClasses = () => {
@@ -25,37 +25,58 @@ const RecentClasses = () => {
             </Tutors>
 
             <Paragraph>Schedule for <b>Selected Tutor Name</b> </Paragraph>
+            <Navigator>
+                <Button><AiOutlineLeft className="fs-5"/>Prev </Button>
+                <SubHeading>This week <b>7-14 September </b></SubHeading>
+                <Button>Next<AiOutlineRight className="fs-5"/></Button>
+            </Navigator>
 
             <Schedule>
+                <SubHeading><b>3 Classes</b> Scheduled in this week</SubHeading>
                 <ClassDetails>
-                    <Heading>No. of classes in week= 3</Heading>
-                    <Heading>Date and classes day name</Heading>
-                    <Heading>With timing</Heading>
-                    <Heading>Class Duration</Heading>
-                    <Heading>Topics Name</Heading><br/><br/>
-                    <Heading>date with status- like class done or not done</Heading>
-                    <ProgressSection>
-                        <Paragraph>85 Active students | 150 Classes | Online, Home Tuition | Vaccinated II</Paragraph>
-                        <Progress>
-                            <Bar now={45} variant="success"/>
-                            <b>Total 150 Classes</b>
-                        </Progress>
-                        <Paragraph>Completed <b>80 Classes</b></Paragraph>
-
-                    </ProgressSection>
+                    <Details>
+                        <Dates>
+                            <Date>18</Date>
+                            <Month>September</Month>
+                        </Dates>
+                        <Time>
+                            <Head>Saturday</Head>
+                            <Headline>Physics</Headline>
+                            <Headline>Timing: <b>10:30 AM</b></Headline>
+                            <Headline>Duration: <b>1 Hour</b></Headline>
+                            <Line>Completed</Line>
+                        </Time>
+                    </Details>
+                    <Details>
+                        <Dates>
+                            <Date>19</Date>
+                            <Month>September</Month>
+                        </Dates>
+                        <Time>
+                            <Head>Sunday</Head>
+                            <Headline>Physics</Headline>
+                            <Headline>Timing: <b>10:30 AM</b></Headline>
+                            <Headline>Duration: <b>1 Hour</b></Headline>
+                            <Line>Completed</Line>
+                        </Time>
+                    </Details>
+                    <Details>
+                        <Dates>
+                            <Date>20</Date>
+                            <Month>September</Month>
+                        </Dates>
+                        <Time>
+                            <Head>Monday</Head>
+                            <Headline>Physics</Headline>
+                            <Headline>Timing: <b>10:30 AM</b></Headline>
+                            <Headline>Duration: <b>1 Hour</b></Headline>
+                            <Line>Upcoming</Line>
+                        </Time>
+                    </Details>
+                    
                 </ClassDetails>
 
-                <Reviews>
-                    <SubHeading>5 <AiFillStar style={{color:"#007770"}}/> (12 Reviews)</SubHeading>
-                    <Price><BiRupee/>1000</Price>       
-                    <Paragraph>Per class</Paragraph><br/>
-                    <SubHeading>Speaks</SubHeading>
-                    <Paragraph>Hindi, English, Spanish,French</Paragraph>
-                    <br/>
-                    <Message><BiMessageDetail/> Message</Message>
-                </Reviews>
-
-            </Schedule>
+                </Schedule>
         </RecentClass>
     )
 }
