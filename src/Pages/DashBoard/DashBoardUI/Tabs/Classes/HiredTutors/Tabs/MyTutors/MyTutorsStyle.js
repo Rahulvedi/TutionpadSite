@@ -1,36 +1,25 @@
 import styled from "styled-components";
 import { ProgressBar } from 'react-bootstrap'
 
-export const RecentClass=styled.div`
-background: #ffffff;
-padding: 1rem;
-`
-export const Tutors=styled.div`
-width: fit-content;
+export const Tutors = styled.div`
 display: flex;
+justify-content: space-between;
+padding: 2rem 2rem 1rem 1rem;
+box-shadow: 0px 4px 15px 5px #71717114;
+margin:4rem 0 .8rem 0; 
+
 `
 export const Tutor=styled.div`
-margin:1rem 1rem 2rem 0;
 display: flex;
-padding: 1rem !important;
-align-items: center !important;
-justify-content: center !important;
-border:2px solid white;
-box-sizing: border-box;
-box-shadow: 0px 4px 15px 5px rgba(113, 113, 113, 0.08);
-border-radius: 5px;
-&:hover{
-    background: #F0FFFE;
-    border: 2px solid rgba(107, 252, 243, 0.8);
-}
+width:80%;
 `
 
 export const ProfileImg=styled.img`
-width: 3.2rem;
-height: 3.2rem;
-border-radius: 2rem;
+width: 4.5rem;
+height: 4.5rem;
+border-radius: 5rem;
 cursor: pointer;
-margin-right: .5rem;
+margin-right: .8rem;
 `
 
 export const Name=styled.div`
@@ -43,44 +32,34 @@ font-size: 1rem;
 font-weight: bold;
 `
 export const Paragraph=styled.p`
-margin: 0;
 color: rgba(21, 39, 38, 0.78);
-font-size: .85rem;
+font-size: .9rem;
 `
-export const Subject=styled.p`
-margin: 0;
+export const Subject=styled.div`
+margin-bottom:.9rem;
 `
-export const Schedule = styled.div`
-display: flex;
-justify-content: space-between;
-padding: 2rem 3rem 2rem 2rem;
-box-shadow: 0px 4px 15px 5px #71717114;
-margin:4rem 0 .8rem 0; 
 
-`
 export const ClassDetails = styled.div`
 display: flex;
 flex-direction: column;
-width: 70%;
 `
 export const Reviews = styled.div`
+width:35%;
 display: flex;
 align-items: center;
 flex-direction: column;
-width:30%;
 `
 export const ProgressSection = styled.div`
-margin-left: 2.5rem;
 `
 export const Progress = styled.div`
 font-weight: bold;
 color: #007770 !important;
-width:50%;
 `
 export const Bar = styled(ProgressBar)`
 background:#6BFCF3;
 color: #007770 !important;
 height:.65rem;
+width: 60%;
 margin:1.2rem 0 .2rem 0;
 `
 
@@ -94,7 +73,7 @@ export const Price = styled.div`
 background:#6BFCF3;
 color: #007770;
 padding:.4rem .6rem;
-margin-top:.7rem;
+margin-top:.3rem;
 border-radius: 5px;
 font-size: 1.2rem;
 font-weight: bold;

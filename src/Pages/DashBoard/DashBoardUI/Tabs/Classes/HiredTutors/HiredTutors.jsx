@@ -6,6 +6,7 @@ import { FaTelegramPlane } from 'react-icons/fa';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import RecentClasses from './Tabs/RecentClasses/RecentClasses'
 import WeeklyGoals from './Tabs/WeeklyGoals/WeeklyGoals';
+import MyTutors from './Tabs/MyTutors/MyTutors';
 import ClassesSchedule from './Tabs/ClassesSchedule/ClassesSchedule';
 const HiredTutors = ({ match }) => {
     function DisplayTime()
@@ -43,6 +44,7 @@ const HiredTutors = ({ match }) => {
                         <Switch>
                             <Route path={`${match.path}`} exact component={RecentClasses}/>
                             <Route path={`${match.path}/weekly-goals`} exact component={WeeklyGoals}/>
+                            <Route path={`${match.path}/my-tutors`} exact component={MyTutors}/>
                             <Route path={`${match.path}/classes-schedule`} exact component={ClassesSchedule}/>
                         </Switch>
                     </Content>
