@@ -28,7 +28,7 @@ const MyTutors = () => {
                             <Paragraph>85 Active students | 150 Classes | Online, Home Tuition | Vaccinated II</Paragraph>
                             <Progress>
                                 <Bar now={45} variant="success"/>
-                                <b>Total 150 Classes</b>
+                                <b className="mx-3">Total 150 Classes</b>
                             </Progress>
                             <Paragraph>Completed <b>80 Classes</b></Paragraph>
                         </ProgressSection>
@@ -66,7 +66,7 @@ const MyTutors = () => {
                             <Paragraph>85 Active students | 150 Classes | Online, Home Tuition | Vaccinated II</Paragraph>
                             <Progress>
                                 <Bar now={45} variant="success"/>
-                                <b>Total 150 Classes</b>
+                                <b className="mx-3">Total 150 Classes</b>
                             </Progress>
                             <Paragraph>Completed <b>80 Classes</b></Paragraph>
                         </ProgressSection>

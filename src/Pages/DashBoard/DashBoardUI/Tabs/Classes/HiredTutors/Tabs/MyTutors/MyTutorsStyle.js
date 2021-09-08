@@ -5,7 +5,10 @@ export const Tutors = styled.div`
 display: flex;
 justify-content: space-between;
 padding: 2rem 2rem 1rem 1rem;
-box-shadow: 0px 4px 15px 5px #71717114;
+border: 2px solid #E6E6E6;
+box-sizing: border-box;
+box-shadow: 0px 4px 15px 5px rgba(113, 113, 113, 0.08);
+border-radius: 5px;
 margin:4rem 0 .8rem 0; 
 
 `
@@ -50,17 +53,21 @@ align-items: center;
 flex-direction: column;
 `
 export const ProgressSection = styled.div`
+
 `
 export const Progress = styled.div`
 font-weight: bold;
 color: #007770 !important;
+display: flex;
+align-items: center;
+margin:1.2rem 0 .2rem 0;
 `
 export const Bar = styled(ProgressBar)`
 background:#6BFCF3;
 color: #007770 !important;
 height:.65rem;
 width: 60%;
-margin:1.2rem 0 .2rem 0;
+
 `
 
 export const SubHeading = styled.h5`
