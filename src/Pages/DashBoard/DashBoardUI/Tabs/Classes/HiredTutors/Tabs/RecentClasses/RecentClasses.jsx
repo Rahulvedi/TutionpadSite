@@ -1,7 +1,8 @@
 import React from 'react'
 import { Body, Head, Heading,HeadingDate, Row ,Data,Date,More,ProfileImg,Name} from './RecentClassesStyles'
-import { Table } from 'react-bootstrap'
-import { BiRupee } from "react-icons/bi"
+import { Table} from 'react-bootstrap'
+import { BiRupee } from "react-icons/bi";
+import ViewMore from './ViewMore/ViewMore';
 
 const RecentClasses = () => {
     return (
@@ -26,7 +27,7 @@ const RecentClasses = () => {
                     <Data>1 Hour</Data>
                     <Data><BiRupee/> 500</Data>
                     <Data>Physics</Data>
-                    <More>View More</More>
+                    <More><ViewMore/></More>
                 </Row>
                 <Row>
                     <Data>
@@ -37,7 +38,7 @@ const RecentClasses = () => {
                     <Data>1 Hour</Data>
                     <Data><BiRupee/> 600</Data>
                     <Data>Maths</Data>
-                    <More>View More</More>
+                    <More><ViewMore/></More>
                 </Row>
                 <Row>
                     <Data>
@@ -48,12 +49,11 @@ const RecentClasses = () => {
                     <Data>1 Hour</Data>
                     <Data><BiRupee/> 600</Data>
                     <Data>Physics</Data>
-                    <More>View More</More>
+                    <More><ViewMore/></More>
                 </Row>
-
-               
             </Body>
         </Table>
+        
 
     )
 }

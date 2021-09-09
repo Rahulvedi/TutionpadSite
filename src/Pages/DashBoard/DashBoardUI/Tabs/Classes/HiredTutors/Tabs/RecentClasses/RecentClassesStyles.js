@@ -45,6 +45,7 @@ display: flex;
 padding: 1rem 0 !important;
 align-items: center !important;
 Color: #007770;
+cursor: pointer;
 `
 export const ProfileImg=styled.img`
 width: 3.2rem;
