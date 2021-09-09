@@ -1,6 +1,6 @@
 import React from 'react'
-import {WeeklyGoalsSection,ProfileImg,Name,Heading,Tutor,Navigator,Button,Tutors,Subject,SubHeading, Paragraph, Goals,GoalSection1,GoalSection2,GoalHeader,Goal,Status,Row,GoalSection3,Header,ProgressHeading,Bar} from './WeeklyGoalsStyle'
-import { AiFillCheckCircle,AiOutlineLeft,AiOutlineRight } from "react-icons/ai";
+import {WeeklyGoalsSection,ProfileImg,Name,Heading,Tutor,Navigator,Button,Tutors,Subject,SubHeading, Paragraph, Goals,GoalSection1,GoalSection2,GoalHeader,Goal,Completed,NotStarted,Row,GoalSection3,Header,ProgressHeading,Bar} from './WeeklyGoalsStyle'
+import { AiFillCheckCircle,AiOutlineLeft,AiOutlineRight ,AiTwotoneSetting} from "react-icons/ai";
 
 const WeeklyGoals = () => {
     return (
@@ -37,27 +37,25 @@ const WeeklyGoals = () => {
 
                 <GoalSection2>
                     <Row>
-                        <Goal>
-                            <GoalHeader>GOALS FOR THIS WEEK</GoalHeader>
-                        </Goal>
+                        <GoalHeader>GOALS FOR THIS WEEK</GoalHeader>
                         <GoalHeader>STATUS</GoalHeader>
                     </Row>
                     <hr/>
                     <Row>
-                        <Goal>3 Classes (3 Hours)</Goal>
-                        <Status>COMPLETED</Status>
+                        <Goal><AiTwotoneSetting style={{color:"#007770"}}/> 3 Classes (3 Hours)</Goal>
+                        <Completed>COMPLETED</Completed>
                     </Row>
                     <Row>
-                        <Goal>1 Test/ MCQ Exam</Goal>
-                        <Status>COMPLETED</Status>
+                        <Goal><AiTwotoneSetting style={{color:"#007770"}}/> 1 Test/ MCQ Exam</Goal>
+                        <Completed>COMPLETED</Completed>
                     </Row>
                     <Row>
-                        <Goal>1 Test/ MCQ Exam</Goal>
-                        <Status>Not Started</Status>
+                        <Goal><AiTwotoneSetting style={{color:"#007770"}}/> 1 Test/ MCQ Exam</Goal>
+                        <NotStarted>Not Started</NotStarted>
                     </Row>
                     <Row>
-                        <Goal>1 PTM Session for 20 minutes</Goal>
-                        <Status>Not Started</Status>
+                        <Goal><AiTwotoneSetting style={{color:"#007770"}}/> 1 PTM Session for 20 minutes</Goal>
+                        <NotStarted>Not Started</NotStarted>
                     </Row>
 
                 </GoalSection2>
