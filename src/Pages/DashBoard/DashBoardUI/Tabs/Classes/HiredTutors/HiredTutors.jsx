@@ -35,7 +35,7 @@ const HiredTutors = ({ match }) => {
                     <Content>
                         <Switch>
                             <Route path={`${match.path}`} exact component={RecentClasses}/>
-                            <Route path={`${match.path}/weekly-goals`} exact component={WeeklyGoals}/>
+                            <Route path={`${match.path}/weekly-goals`}  component={WeeklyGoals}/>
                         </Switch>
                     </Content>
                 </Router>

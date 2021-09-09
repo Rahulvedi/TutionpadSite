@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import DashBoardHeader from '../DashBoardUI/DashboardHeader/DashBoardHeader'
 import SubDashBoardHeader from '../DashBoardUI/SubDashBoardHeader/SubDashBoardHeader'
 import {Content} from './StudentDashBoardStyle'
+import Error404 from '../../Error404/Error404'
 import { Profile,Classes,Messages,Report,Disputes,Favroutes,Payment, Orders, Requirments} from '../DashBoardUI/Tabs/default'
 const StudentDashBoard = ({ match }) => {
     return (
@@ -21,6 +22,7 @@ const StudentDashBoard = ({ match }) => {
                     <Route path={`${match.path}/payment`} component={Payment} />
                     <Route path={`${match.path}/orders`} component={Orders} />
                     <Route path={`${match.path}/requirements`} component={Requirments} />
+                    <Route component={Error404}/>
                 </Switch>
                 </Content>
             </Router>

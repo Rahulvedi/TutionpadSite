@@ -1,11 +1,11 @@
 import React from 'react'
-import { Body, Head, Heading, Row ,Data,ProfileImg,Name} from './RecentClasses'
-import { Table } from 'react-bootstrap'
+import { Body, Head, Heading, Row ,Data,ProfileImg,Name, Table} from './RecentClassesStyles'
+// import { Table } from 'react-bootstrap'
 import { BiRupee } from "react-icons/bi"
 
 const RecentClasses = () => {
     return (
-        <Table responsive="xl">
+        <Table >
             <Head>
                 <Row>
                     <Heading>TUTOR</Heading>

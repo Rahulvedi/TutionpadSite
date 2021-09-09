@@ -1,7 +1,8 @@
 import styled from "styled-components";
-export const Head=styled.thead``
-export const Body=styled.tbody`
+export const Head=styled.div``
+export const Body=styled.div`
 `
+export const Table=styled.div``
 export const Row=styled.div`
 display: flex;
 justify-content: space-between;

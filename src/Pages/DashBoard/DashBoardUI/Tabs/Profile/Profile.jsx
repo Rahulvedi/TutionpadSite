@@ -14,6 +14,7 @@ const Profile = ({ match }) => {
             </Info>
             <Settings>
                 <Router>
+                    
                     <ScrollToTop/>
                     <Tabs>
                         <Tab><Options to={`${match.path}`}>Account Information</Options></Tab>
