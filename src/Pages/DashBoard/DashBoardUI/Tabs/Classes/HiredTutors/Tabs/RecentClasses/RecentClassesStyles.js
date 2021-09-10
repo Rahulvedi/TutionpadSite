@@ -15,6 +15,13 @@ height: 3rem;
 padding: 1rem 0 !important;
 align-items: center !important;
 `
+export const HeadingDate=styled.div`
+color: #A5A5A5;
+width: 20rem;
+height: 3rem;
+padding: 1rem 0 !important;
+align-items: center !important;
+`
 export const Data=styled.div`
 margin:.2rem;
 width: 10rem;
@@ -22,6 +29,24 @@ height: 3rem;
 display: flex;
 padding: 1rem 0 !important;
 align-items: center !important;
+`
+export const Date=styled.div`
+margin:.2rem;
+width: 20rem;
+height: 3rem;
+display: flex;
+padding: 1rem 0 !important;
+align-items: center !important;
+`
+export const More=styled.div`
+margin:.2rem;
+width: 10rem;
+height: 3rem;
+display: flex;
+padding: 1rem 0 !important;
+align-items: center !important;
+Color: #007770;
+cursor: pointer;
 `
 export const ProfileImg=styled.img`
 width: 3.2rem;
