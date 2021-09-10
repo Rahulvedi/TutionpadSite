@@ -4,7 +4,7 @@ import { IoMdAlarm } from 'react-icons/io';
 import { BiMessageDetail } from 'react-icons/bi';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import RecentClasses from './Tabs/RecentClasses/RecentClasses'
+import RecentClasses from './Tabs/RecentClasses/RecentClasses.jsx'
 import WeeklyGoals from './Tabs/WeeklyGoals/WeeklyGoals';
 const HiredTutors = ({ match }) => {
     console.log(match)
