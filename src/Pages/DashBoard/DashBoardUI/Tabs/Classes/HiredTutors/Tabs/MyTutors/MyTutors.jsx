@@ -38,12 +38,12 @@ const MyTutors = () => {
             </ClassDetails>
 
             <Reviews>
-                <SubHeading>5 <AiFillStar style={{color:"#007770"}}/> (12 Reviews)</SubHeading>
-                <Price><BiRupee/>1000</Price>       
+                <SubHeading>5 <AiFillStar style={{color:"#007770",fontSize:"1.4rem"}}/> (12 Reviews)</SubHeading>
+                <Price><BiRupee className="fs-4"/>1000</Price>       
                 <Paragraph>Per class</Paragraph><br/>
                 <SubHeading>Speaks</SubHeading>
                 <Paragraph>Hindi, English, Spanish,French</Paragraph>
-                <Message><BiMessageDetail/> Message</Message>
+                <Message><BiMessageDetail className="fs-3"/> Message</Message>
             </Reviews>
 
         </Tutors>
@@ -76,12 +76,12 @@ const MyTutors = () => {
             </ClassDetails>
 
             <Reviews>
-                <SubHeading>5 <AiFillStar style={{color:"#007770"}}/> (12 Reviews)</SubHeading>
-                <Price><BiRupee/>1000</Price>       
+                <SubHeading>5 <AiFillStar style={{color:"#007770",fontSize:"1.4rem"}}/> (12 Reviews)</SubHeading>
+                <Price><BiRupee className="fs-4"/>1000</Price>       
                 <Paragraph>Per class</Paragraph><br/>
                 <SubHeading>Speaks</SubHeading>
                 <Paragraph>Hindi, English, Spanish,French</Paragraph>
-                <Message><BiMessageDetail/> Message</Message>
+                <Message><BiMessageDetail className="fs-3"/>  Message</Message>
             </Reviews>
 
         </Tutors>
