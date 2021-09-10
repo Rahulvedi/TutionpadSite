@@ -1,9 +1,14 @@
+import { createGlobalStyle } from 'styled-components';
+const GlobalStyle = createGlobalStyle`
 *{
     margin: 0;
     padding: 0 ;
     box-sizing: border-box ;
     font-family: 'Noto Sans TC', sans-serif;
     scroll-behavior: smooth;
+}
+html{
+    
 }
 a{
     text-decoration: none; 
@@ -17,3 +22,6 @@ li{
     --Color--Secondary:#000;
     --Color--BtnColor:#000;
 }
+`;
+ 
+export default GlobalStyle;

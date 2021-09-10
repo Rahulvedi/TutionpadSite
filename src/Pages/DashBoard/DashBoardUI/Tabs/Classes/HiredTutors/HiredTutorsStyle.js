@@ -118,6 +118,11 @@ export const Right=styled.div`
 display: flex;
 align-items: center;
 `
+export const Time = styled.div`
+margin: 0 2rem;
+font-weight: bold;
+`
+
 export const AlarmButton=styled.button`
 border: none;
 outline: none;
@@ -180,6 +185,7 @@ margin: 0 1.84375rem;
 &:hover{
   color: black;
 }
+  
 `
 export const Content=styled.div`
 padding: 1rem;
