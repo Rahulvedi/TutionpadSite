@@ -3,12 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import DashBoardHeader from '../DashBoardUI/DashboardHeader/DashBoardHeader'
 import SubDashBoardHeader from '../DashBoardUI/SubDashBoardHeader/SubDashBoardHeader'
 import {Content} from './StudentDashBoardStyle'
-<<<<<<< HEAD
 import Error404 from '../../Error404/Error404'
-import { Profile,Classes,Messages,Report,Disputes,Favroutes,Payment, Orders, Requirments} from '../DashBoardUI/Tabs/default'
-=======
 import { Profile,Classes,Messages,Report,Disputes,Favourites,Payment, Orders, Requirments} from '../DashBoardUI/Tabs/default'
->>>>>>> c6e3fd8520171ace703fba50ab7c3aeb68f8066d
 const StudentDashBoard = ({ match }) => {
     return (
         <>
