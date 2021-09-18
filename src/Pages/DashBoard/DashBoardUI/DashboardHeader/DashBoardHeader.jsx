@@ -4,13 +4,15 @@ import { BsFillCaretDownFill } from 'react-icons/bs'
 import { RiLogoutBoxRLine } from 'react-icons/ri'
 import { MdClose } from 'react-icons/md'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { Student } from '../../../../Context/StudentContext'
 const DashBoardHeader = ({match}) => {
-    
+    const {currentUser,baseURL}=Student();
+    const [CurrentUser, setCurrentUser] = useState(currentUser)
     const [DropDownOpen, setDropDownOpen] = useState(false)
     const [MenuIsOpen, setMenuIsOpen] = useState(false)
     function handleMenuClick() {
         setMenuIsOpen(!MenuIsOpen)
-    }
+    } 
     return (
         <Nav>
             <NavbarWrapper>
@@ -19,8 +21,9 @@ const DashBoardHeader = ({match}) => {
                 </Left>
                 <Right click={MenuIsOpen}>
                     <Profile>
-                        <ProfileImg src='/images/ProfileImg.jpg' />
-                        <Text>Rahul</Text>
+                    
+                        <ProfileImg src={(CurrentUser===undefined)?`${baseURL}ProfilePicture/ProfileImg-Male.jpg`:(baseURL+CurrentUser.image)} alt="ProfileImg" />
+                        <Text>{currentUser.username}</Text>
                         <Icon>
                             <BsFillCaretDownFill style={{ color: 'grey', cursor: 'pointer' }} onClick={() => { setDropDownOpen(!DropDownOpen) }} />
                         </Icon>

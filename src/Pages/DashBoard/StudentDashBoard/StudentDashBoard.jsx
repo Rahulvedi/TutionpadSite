@@ -4,10 +4,11 @@ import DashBoardHeader from '../DashBoardUI/DashboardHeader/DashBoardHeader'
 import SubDashBoardHeader from '../DashBoardUI/SubDashBoardHeader/SubDashBoardHeader'
 import {Content} from './StudentDashBoardStyle'
 import Error404 from '../../Error404/Error404'
+import StudentProvider from '../../../Context/StudentContext'
 import { Profile,Classes,Messages,Report,Disputes,Favourites,Payment, Orders, Requirments} from '../DashBoardUI/Tabs/default'
 const StudentDashBoard = ({ match }) => {
     return (
-        <>
+        <StudentProvider>
             <Router>
             <DashBoardHeader match={match}/>
                 <SubDashBoardHeader match={match} />
@@ -27,7 +28,7 @@ const StudentDashBoard = ({ match }) => {
                 </Content>
             </Router>
 
-        </>
+        </StudentProvider>
     )
 }
 

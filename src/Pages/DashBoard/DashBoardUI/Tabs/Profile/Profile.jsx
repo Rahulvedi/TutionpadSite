@@ -1,15 +1,19 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { AccountInfo, CalenderSettings, ClassConfirmation, Email, Notifications,Password } from './Tabs/default'
 import {ScrollToTop} from '../../../../../Components/default'
 import { Container, CoverImg, Info, ProfileImg, Name, Edit, Settings, Tabs, Content, Tab, Options } from './ProfileStyles'
+import { Student } from '../../../../../Context/StudentContext'
 const Profile = ({ match }) => {
+    const {currentUser,baseURL}=Student();
+    const [CurrentUser, setCurrentUser] = useState(currentUser)
+    console.log(CurrentUser);
     return (
         <Container>
             <CoverImg src='/images/BannerImg.jpeg' />
             <Info>
-                <ProfileImg src='/images/ProfileImg.jpg' alt='ProfileImg' />
-                <Name>Student Name</Name>
+                <ProfileImg src={(CurrentUser===undefined)?`${baseURL}ProfilePicture/ProfileImg-Male.jpg`:(baseURL+CurrentUser.image)}  alt='ProfileImg' />
+                <Name>{currentUser.username}</Name>
                 <Edit />
             </Info>
             <Settings>

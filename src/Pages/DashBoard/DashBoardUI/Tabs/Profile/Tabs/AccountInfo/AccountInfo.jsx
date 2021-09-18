@@ -1,12 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
+import { Student } from '../../../../../../../Context/StudentContext'
 import {Heading,ImgSection,UploadImgButton,Img,UploadImg,Text,Details,Group,Label,Input,UpdateButton} from './AccountInfoStyles'
 const AccountInfo = () => {
+    const {currentUser ,baseURL}=Student();
+    const [CurrentUser, setCurrentUser] = useState(currentUser)
     return (
         <>
             <Heading>Account Settings</Heading>
             <hr/>
             <ImgSection>
-                <Img src='/images/ProfileImg.jpg' alt='ProfileImg'></Img>
+                <Img src={(CurrentUser===undefined)?`${baseURL}ProfilePicture/ProfileImg-Male.jpg`:(baseURL+CurrentUser.image)}  alt='ProfileImg'></Img>
                 <UploadImg>
                 <UploadImgButton>Upload Image</UploadImgButton>
                 <Text>Maximum size - 1MB.</Text>
