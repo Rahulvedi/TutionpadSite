@@ -17,8 +17,10 @@ const Login = () => {
         }
         try {
             setLoading(true)
-            await axios.post('http://localhost:3001/students/login-student', payload).then((res) => {
+            await axios.post('http://localhost:3001/students/login', payload).then((res) => {
                 if(res.data.message==="ok"){
+                    console.log(res.data.token)
+                    localStorage.setItem('token', res.data.token);
                     history.push('/student-dashboard')
                 }
                 else{

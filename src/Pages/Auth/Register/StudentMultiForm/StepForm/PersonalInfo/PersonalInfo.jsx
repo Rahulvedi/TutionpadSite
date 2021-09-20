@@ -17,7 +17,7 @@ const PersonalInfo = ({ formData, setData }) => {
         }
         try {
             setLoading(true)
-            await axios.post('http://localhost:3001/students/register-student', formData).then((res)=>{
+            await axios.post('http://localhost:3001/students/register', formData).then((res)=>{
             if(res.data.message==="ok"){
                 console.log(res.data.token)
                 history.push('/student-dashboard')

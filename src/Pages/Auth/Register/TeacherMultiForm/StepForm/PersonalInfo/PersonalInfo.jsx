@@ -17,7 +17,7 @@ const PersonalInfo = ({ formData, setData }) => {
         }
         try {
             setLoading(true)
-            await axios.post('http://localhost:3001/teachers/register-teacher', formData).then((res)=>{
+            await axios.post('http://localhost:3001/teachers/register', formData).then((res)=>{
                 if(res.data==="ok"){
                     history.push('/teacher-dashboard')
                 }
