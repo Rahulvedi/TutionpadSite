@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {CgArrowRightO} from 'react-icons/cg'
 import {AiOutlinePlus} from 'react-icons/ai'
+import {FormControl} from 'react-bootstrap'
 
 export const ChatPortion = styled.section`
 display: flex;
@@ -28,7 +29,7 @@ height: 87%;
 border-bottom: 1px solid rgba(213, 213, 213, 0.67);
 `
 export const Date = styled.div`
-font-size: .7rem;
+font-size: .75rem;
 padding:.2rem  .4rem;
 width: fit-content;
 margin: auto;
@@ -38,7 +39,7 @@ border-radius: 50px;
 text-align: center;
 `
 export const Left = styled.div`
-font-size: 1rem;
+font-size: 1.1rem;
 padding:.5rem 1rem;
 width: fit-content;
 text-align: left;
@@ -48,7 +49,7 @@ background: #F5F7F8;
 border-radius: 10px 10px 10px 0px;
 `
 export const Right = styled.div`
-font-size: 1rem;
+font-size: 1.1rem;
 padding:.5rem 1rem;
 margin:.4rem 0;
 width: fit-content;
@@ -59,9 +60,11 @@ background: #D5FCF9CC;
 border-radius: 10px 10px 0px 10px;
 `
 export const Time = styled.h5`
-font-size :.8rem;
+font-size :.75rem;
 margin:0;
 padding-top: 2px;
+color: #838383;
+
 `
 
 export const MessgeFooter = styled.div`
@@ -69,6 +72,13 @@ padding: .8rem 2rem .2rem 2rem;
 display: flex;
 justify-content: center;
 align-items: center;
+`
+export const Input=styled(FormControl)`
+color:#007770;
+margin:0 1rem;
+padding:.6rem .9rem;
+background: #F5F7F8;
+border-radius: 19px;
 `
 export const TutorChatDeatails = styled.div`
 background: #ffffff;
@@ -89,7 +99,11 @@ border-radius: 2rem;
 cursor: pointer;
 margin-right: .3rem;
 `
-
+export const India=styled.img`
+width: 1.1rem;
+height: 1.2rem;
+margin-right: .5rem;
+`
 export const Name=styled.div`
 font-size: .8rem;
 word-wrap: break-word;
@@ -140,6 +154,7 @@ justify-content: space-between;
 font-weight: bold;
 font-size: 14px;
 color: #007770;
+cursor: pointer;
 background: #D2FFFC;
 border-radius: 3px;
 margin:.7rem .2rem;

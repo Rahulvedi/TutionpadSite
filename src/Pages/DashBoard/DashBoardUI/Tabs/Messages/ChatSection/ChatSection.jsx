@@ -1,6 +1,5 @@
 import React from 'react'
-import {ChatPortion,ChatingSection,TutorChatDeatails,Header,Chat,MessgeFooter,Date,Left,Right,Time,Tutor,ProfileImg,Name,Heading,SubHeading,Prices,Price,Details,Select,Arrow,Plus,Button} from './ChatSectionStyles'
-import {FormControl,InputGroup} from 'react-bootstrap'
+import {ChatPortion,ChatingSection,TutorChatDeatails,Header,Chat,MessgeFooter,Date,Left,Right,Time,Tutor,ProfileImg,Name,Heading,SubHeading,Prices,Price,Details,Select,Arrow,Plus,Button,Input,India} from './ChatSectionStyles'
 import {AiOutlineSend,AiFillStar,AiFillCheckCircle} from 'react-icons/ai'
 import {BiRupee} from 'react-icons/bi'
 
@@ -35,19 +34,19 @@ const ChatSection = () => {
                                 </Right>
                             </div>    
                     </Chat>
-                    <MessgeFooter>
-                        <InputGroup className="mx-2" style={{background: "#b2d9eb",bordeRadius: "19px"}}>
-                            <FormControl aria-label="Default" aria-describedby="inputGroup-sizing-default"/>
-                        </InputGroup>
-
+                    <MessgeFooter>    
+                        <Input  placeholder="Type a message..." aria-label="Type a message" autoFocus/>
                         <AiOutlineSend style={{color:"#007770", fontSize:"2rem",cursor: "pointer"}}/>
                     </MessgeFooter>
                 </ChatingSection>
+
                 <TutorChatDeatails>
                     <Tutor>
                         <ProfileImg src="/images/ProfileImg.jpg"/>
                         <Name>
-                             <Heading>Tutor Name<AiFillCheckCircle style={{color:"#1547FA" ,margin:"0 .4rem"}}/></Heading>
+                             <Heading>Tutor Name<AiFillCheckCircle style={{color:"#1547FA" ,margin:"0 .4rem"}}/>
+                             <India src="/images/india.svg"/>
+                             </Heading>
                             <SubHeading>5 <AiFillStar style={{color:"#007770" ,margin:"0 .1rem"}}/> (12 Reviews)</SubHeading>
 
                         </Name>

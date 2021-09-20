@@ -33,6 +33,11 @@ border-radius: 2rem;
 cursor: pointer;
 margin-right: .5rem;
 `
+export const India=styled.img`
+width: 1.1rem;
+height: 1.2rem;
+margin-right: .5rem;
+`
 
 export const Name=styled.div`
 font-size: .8rem;

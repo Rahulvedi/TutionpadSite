@@ -1,8 +1,7 @@
 import React from 'react'
 import {RecentClass,ProfileImg,Name,Heading,Tutor,Navigator,Button,Tutors,Subject,ClassDetails,Schedule,SubHeading,Details,Dates,Date,Time,Headline,Head,Line,Month, Paragraph} from './ClassesScheduleStyles'
+import {India} from '../../HiredTutorsStyle'
 import { AiFillCheckCircle,AiOutlineLeft,AiOutlineRight } from "react-icons/ai";
-
-
 
 const RecentClasses = () => {
     return (
@@ -11,14 +10,18 @@ const RecentClasses = () => {
                 <Tutor>
                     <ProfileImg src="/images/ProfileImg.jpg"/>
                     <Name>
-                        <Heading>Vijendra <AiFillCheckCircle style={{color:"#1547FA"}}/></Heading>
+                        <Heading>Vijendra <AiFillCheckCircle style={{color:"#1547FA"}}/>
+                        <India src="/images/india.svg"/>
+                        </Heading>
                         <Subject>Subject <b>React</b></Subject>
                     </Name>
                 </Tutor>
                 <Tutor>
                     <ProfileImg src="/images/ProfileImg.jpg"/>
                     <Name>
-                        <Heading>Rahul Vedi <AiFillCheckCircle style={{color:"#1547FA"}}/></Heading>
+                        <Heading>Rahul Vedi <AiFillCheckCircle style={{color:"#1547FA"}}/>
+                        <India src="/images/india.svg"/>
+                        </Heading>
                         <Subject>Subject <b>React</b></Subject>
                     </Name>
                 </Tutor>

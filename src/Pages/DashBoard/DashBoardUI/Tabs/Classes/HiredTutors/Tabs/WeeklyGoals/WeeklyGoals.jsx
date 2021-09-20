@@ -1,5 +1,6 @@
 import React from 'react'
 import {WeeklyGoalsSection,ProfileImg,Name,Heading,Tutor,Navigator,Button,Tutors,Subject,SubHeading, Paragraph, Goals,GoalSection1,GoalSection2,GoalHeader,Goal,Completed,NotStarted,Row,GoalSection3,Header,ProgressHeading,Bar} from './WeeklyGoalsStyle'
+import {India} from '../../HiredTutorsStyle'
 import { AiFillCheckCircle,AiOutlineLeft,AiOutlineRight ,AiTwotoneSetting} from "react-icons/ai";
 
 const WeeklyGoals = () => {
@@ -9,14 +10,18 @@ const WeeklyGoals = () => {
                 <Tutor>
                     <ProfileImg src="/images/ProfileImg.jpg"/>
                     <Name>
-                        <Heading>Vijendra <AiFillCheckCircle style={{color:"#1547FA"}}/></Heading>
+                        <Heading>Vijendra <AiFillCheckCircle style={{color:"#1547FA"}}/>
+                        <India src="/images/india.svg"/>
+                        </Heading>
                         <Subject>Subject <b>React</b></Subject>
                     </Name>
                 </Tutor>
                 <Tutor>
                     <ProfileImg src="/images/ProfileImg.jpg"/>
                     <Name>
-                        <Heading>Rahul Vedi <AiFillCheckCircle style={{color:"#1547FA"}}/></Heading>
+                        <Heading>Rahul Vedi <AiFillCheckCircle style={{color:"#1547FA"}}/>
+                        <India src="/images/india.svg"/>
+                        </Heading>
                         <Subject>Subject <b>React</b></Subject>
                     </Name>
                 </Tutor>
