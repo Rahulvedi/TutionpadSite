@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import { Form, Alert, Spinner} from 'react-bootstrap';
+import { Form, Alert, Spinner } from 'react-bootstrap';
 import { Link, useHistory } from 'react-router-dom';
 import axios from 'axios';
 import { Wrapper, FormWrapper, BannerWrapper, Logo, Title, SubTitle, LoginForm, BannerImg, LoginButton, SocialIcons, FaceBookBtn, GoogleBtn, Text } from './LoginStyles';
@@ -18,17 +18,17 @@ const Login = () => {
         try {
             setLoading(true)
             await axios.post('http://localhost:3001/students/login', payload).then((res) => {
-                if(res.data.message==="ok"){
+                if (res.data.message === "ok") {
                     console.log(res.data.token)
                     localStorage.setItem('token', res.data.token);
                     history.push('/student-dashboard')
                 }
-                else{
+                else {
                     setError(res.data)
                     setLoading(false)
                 }
             })
-        } catch(error){
+        } catch (error) {
             console.log(error)
         }
     }

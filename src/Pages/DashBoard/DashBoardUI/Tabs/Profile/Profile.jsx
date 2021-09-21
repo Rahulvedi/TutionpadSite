@@ -6,13 +6,11 @@ import { Container, CoverImg, Info, ProfileImg, Name, Edit, Settings, Tabs, Cont
 import { Student } from '../../../../../Context/StudentContext'
 const Profile = ({ match }) => {
     const {currentUser,baseURL}=Student();
-    const [CurrentUser, setCurrentUser] = useState(currentUser)
-    console.log(CurrentUser);
     return (
         <Container>
             <CoverImg src='/images/BannerImg.jpeg' />
             <Info>
-                <ProfileImg src={(CurrentUser===undefined)?`${baseURL}ProfilePicture/ProfileImg-Male.jpg`:(baseURL+CurrentUser.image)}  alt='ProfileImg' />
+                <ProfileImg  src={(currentUser.image===undefined)?'/images/ProfileImg.jpg':`${baseURL}${currentUser.image}`} alt="ProfileImg" />
                 <Name>{currentUser.username}</Name>
                 <Edit />
             </Info>

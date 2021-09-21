@@ -7,7 +7,6 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { Student } from '../../../../Context/StudentContext'
 const DashBoardHeader = ({match}) => {
     const {currentUser,baseURL}=Student();
-    const [CurrentUser, setCurrentUser] = useState(currentUser)
     const [DropDownOpen, setDropDownOpen] = useState(false)
     const [MenuIsOpen, setMenuIsOpen] = useState(false)
     function handleMenuClick() {
@@ -22,7 +21,7 @@ const DashBoardHeader = ({match}) => {
                 <Right click={MenuIsOpen}>
                     <Profile>
                     
-                        <ProfileImg src={(CurrentUser===undefined)?`${baseURL}ProfilePicture/ProfileImg-Male.jpg`:(baseURL+CurrentUser.image)} alt="ProfileImg" />
+                        <ProfileImg src={(currentUser.image===undefined)?'/images/ProfileImg.jpg':`${baseURL}${currentUser.image}`} alt="ProfileImg" />
                         <Text>{currentUser.username}</Text>
                         <Icon>
                             <BsFillCaretDownFill style={{ color: 'grey', cursor: 'pointer' }} onClick={() => { setDropDownOpen(!DropDownOpen) }} />
