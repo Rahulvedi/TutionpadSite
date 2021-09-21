@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import { TopBar, Left, Right, AlarmButton, Time,Message, JoinNow, TutorInfo, ProfileImg, Name, ClassDetails, NavigationBar, NavigationItem, Content } from './HiredTutorsStyle';
 import { IoMdAlarm } from 'react-icons/io';
 import { BiMessageDetail } from 'react-icons/bi';
@@ -9,18 +9,20 @@ import WeeklyGoals from './Tabs/WeeklyGoals/WeeklyGoals';
 import MyTutors from './Tabs/MyTutors/MyTutors';
 import ClassesSchedule from './Tabs/ClassesSchedule/ClassesSchedule';
 const HiredTutors = ({ match }) => {
-    function DisplayTime()
-        { 
-            return new Date().toString();
-        }
-        setInterval(DisplayTime,1000);
+    const [time, setTime] = useState(new Date());
+    useEffect(() => {
+     let TimeId = setInterval(() => setTime(new Date()), 1000);
+     return () => {
+      clearInterval(TimeId);
+     };
+     });
 
     return (
         <>
             <TopBar>
                 <Left>
                     <AlarmButton><IoMdAlarm style={{ fontSize: '1.5rem' }} />Upcoming Class</AlarmButton>
-                    <Time><DisplayTime/></Time>
+                    <Time>{ time.toString()}</Time>
                 </Left>
                 <Right>
                     <Message><BiMessageDetail />Message</Message>
