@@ -17,7 +17,7 @@ background: #ffffff;
 padding: 1rem;
 cursor: pointer;
 width:25%;
-height: 100vh;
+height: 81vh;
 
 `
 
@@ -25,7 +25,7 @@ export const MessageArea=styled.div`
 background: #ffffff;
 /* padding: 1rem; */
 margin-left:  1rem;
-height: 100vh;
+height: 81vh;
 width:74%;
 `
 

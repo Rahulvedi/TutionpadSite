@@ -13,8 +13,8 @@ font-style: normal;
 export const ChatingSection = styled.div`
 background: #ffffff;
 width:80%;
-height:100vh;
-padding:1rem;
+height:81vh;
+padding: 1rem .05rem 1rem 1rem;
 margin-right: 1rem;
 `
 
@@ -25,7 +25,8 @@ color: #2F2E41;
 border-bottom: 1px solid rgba(213, 213, 213, 0.67);
 `
 export const Chat = styled.div`
-height: 87%;
+height: 83.5%;
+overflow-y: scroll;
 border-bottom: 1px solid rgba(213, 213, 213, 0.67);
 `
 export const Date = styled.div`
@@ -51,7 +52,7 @@ border-radius: 10px 10px 10px 0px;
 export const Right = styled.div`
 font-size: 1.1rem;
 padding:.5rem 1rem;
-margin:.4rem 0;
+margin:.4rem .8rem;
 width: fit-content;
 text-align: right;
 right: 0px;
@@ -83,7 +84,7 @@ border-radius: 19px;
 export const TutorChatDeatails = styled.div`
 background: #ffffff;
 width:35%;
-height:100vh;
+height:81vh;
 padding:1rem;
 `
 export const Tutor=styled.div`

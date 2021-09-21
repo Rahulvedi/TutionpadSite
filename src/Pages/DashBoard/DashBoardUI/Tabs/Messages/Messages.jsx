@@ -22,7 +22,7 @@ const Messages = () => {
                         <Action>All</Action>
                         <Action style={{color:"#A5A5A5"}}>Unread</Action>
                     </TutorSelect>
-                    <Tutors onClick={() => setChoice(1)} className={(Choice === 1) ? 'active' : ''}> 
+                    <Tutors onClick={() => setChoice(1)}> 
                         <TutorId/>      
                         <TutorId/>      
                         <TutorId/>      

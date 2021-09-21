@@ -33,6 +33,36 @@ const ChatSection = () => {
                                     <Time> 09:15 AM</Time>
                                 </Right>
                             </div>    
+                            <Left>
+                                TutorSide
+                                <Time> 08:42 AM</Time>
+                            </Left>
+                            <div className="d-flex justify-content-end">
+                                <Right>
+                                    ClientSide
+                                    <Time> 09:15 AM</Time>
+                                </Right>
+                            </div>    
+                            <Left>
+                                TutorSide
+                                <Time> 08:42 AM</Time>
+                            </Left>
+                            <div className="d-flex justify-content-end">
+                                <Right>
+                                    ClientSide
+                                    <Time> 09:15 AM</Time>
+                                </Right>
+                            </div>    
+                            <Left>
+                                TutorSide
+                                <Time> 08:42 AM</Time>
+                            </Left>
+                            <div className="d-flex justify-content-end">
+                                <Right>
+                                    ClientSide
+                                    <Time> 09:15 AM</Time>
+                                </Right>
+                            </div>    
                     </Chat>
                     <MessgeFooter>    
                         <Input  placeholder="Type a message..." aria-label="Type a message" autoFocus/>

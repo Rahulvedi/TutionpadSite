@@ -12,7 +12,7 @@ const NonSelected = () => {
     height:18rem;
     width: 18rem;
     padding: 1rem;
-    margin:9rem 25rem;
+    margin:12rem 27rem;
     border-radius:20rem;
     `
     return (
