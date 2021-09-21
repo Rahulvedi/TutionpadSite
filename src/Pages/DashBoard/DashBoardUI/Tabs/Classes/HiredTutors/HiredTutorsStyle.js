@@ -168,6 +168,11 @@ margin-right: .5rem;
 export const Name=styled.p`
 margin: 0;
 `
+export const India=styled.img`
+width: 1.1rem;
+height: 1.2rem;
+margin: .35rem;
+`
 
 export const ClassDetails=styled.div`
 padding: 1rem;
