@@ -2,7 +2,7 @@ import React from 'react'
 import { Student } from '../../../../../../../Context/StudentContext'
 import { Details, Group, Heading, Img, ImgSection, Input, Label, UpdateButton } from './EmailStyles'
 const EmailSettings = () => {
-    const {currentUser,baseURL}=Student();
+    const {currentUser}=Student();
     return (
         <>   
       <Heading>Email Settings</Heading>

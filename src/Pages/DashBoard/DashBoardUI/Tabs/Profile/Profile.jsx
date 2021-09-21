@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { AccountInfo, CalenderSettings, ClassConfirmation, Email, Notifications,Password } from './Tabs/default'
 import {ScrollToTop} from '../../../../../Components/default'
