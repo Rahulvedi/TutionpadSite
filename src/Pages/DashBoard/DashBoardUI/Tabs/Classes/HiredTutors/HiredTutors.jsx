@@ -25,7 +25,7 @@ const HiredTutors = ({ match }) => {
                     <Time>{ time.toString()}</Time>
                 </Left>
                 <Right>
-                    <Message><BiMessageDetail />Message</Message>
+                    <Message><BiMessageDetail className="fs-3" />Message</Message>
                     <JoinNow><FaTelegramPlane />Join Class</JoinNow>
                     <TutorInfo>
                         <ProfileImg src='/images/ProfileImg.jpg' />

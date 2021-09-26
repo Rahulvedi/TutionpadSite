@@ -7,6 +7,7 @@ export const Row=styled.div`
 display: flex;
 justify-content: space-between;
 margin-bottom: 1rem;
+border-bottom: 1px solid rgba(213, 213, 213, 0.36);
 `
 export const Heading=styled.div`
 color: #A5A5A5;
@@ -17,7 +18,7 @@ align-items: center !important;
 `
 export const HeadingDate=styled.div`
 color: #A5A5A5;
-width: 20rem;
+width: 15rem;
 height: 3rem;
 padding: 1rem 0 !important;
 align-items: center !important;
@@ -27,15 +28,15 @@ margin:.2rem;
 width: 10rem;
 height: 3rem;
 display: flex;
-padding: 1rem 0 !important;
+padding: 1.8rem 0 !important;
 align-items: center !important;
 `
 export const Date=styled.div`
 margin:.2rem;
-width: 20rem;
+width: 15rem;
 height: 3rem;
 display: flex;
-padding: 1rem 0 !important;
+padding: 1.8rem 0 !important;
 align-items: center !important;
 `
 export const More=styled.div`
