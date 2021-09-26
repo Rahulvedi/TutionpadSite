@@ -1,20 +1,20 @@
 import React from 'react'
 import styled from "styled-components";
 import {BiMessageDetail} from "react-icons/bi"
-const NonSelected = () => {
 
-    const Non=styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #6BFCF347;
-    height:18rem;
-    width: 18rem;
-    padding: 1rem;
-    margin:12rem 27rem;
-    border-radius:20rem;
-    `
+const Non=styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #6BFCF347;
+height:18rem;
+width: 18rem;
+padding: 1rem;
+margin:12rem 27rem;
+border-radius:20rem;
+`
+const NonSelected = () => {
     return (
         <>
             <Non>

@@ -2,11 +2,11 @@ import React from 'react'
 import { Section,Title,Topic,Button} from '../PreviousDisputes/More/MoreStyles'
 import {Form} from 'react-bootstrap'
 import styled from 'styled-components'
-const CreateDispute = () => {
-    const Container=styled.div`
+const Container=styled.div`
     display: flex;
     margin:1rem 1.5rem;
     `
+const CreateDispute = () => {
     return (
         <>
             <Section>

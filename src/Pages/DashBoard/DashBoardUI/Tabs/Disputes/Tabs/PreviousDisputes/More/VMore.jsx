@@ -1,7 +1,7 @@
 import React from 'react'
-import { Body, Head, Heading,HeadingDate, Row ,Data,Date,More,ProfileImg,Name} from '../../../../Classes/HiredTutors/Tabs/RecentClasses/RecentClassesStyles'
+import { Body, Head, Heading,HeadingDate, Row ,Data,Date,More,ProfileImg,Name,Table} from '../../../../Classes/HiredTutors/Tabs/RecentClasses/RecentClassesStyles'
 import {Nav, Title,SubTitle,DateBox,Section,Topic,Container,ModalBody,Button,Share} from './MoreStyles'
-import { Table,Modal} from 'react-bootstrap'
+import { Modal} from 'react-bootstrap'
 
 const VMore = () => {
 

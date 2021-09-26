@@ -1,5 +1,6 @@
 import React from 'react'
 import {Favourite,ProfileImg,Name,Heading,Tutor,Paragraph,Tutors,Subject,ClassDetails,Reviews,Progress,ProgressSection,Demo,SubHeading,Price,Message,Section,Title,Teachers} from './FavouritesStyles';
+import { India } from '../Classes/HiredTutors/HiredTutorsStyle';
 import { AiFillCheckCircle,AiFillStar } from "react-icons/ai";
 import { BiRupee,BiMessageDetail,BiCurrentLocation } from "react-icons/bi";
 import { MdLocationOn} from "react-icons/md";
@@ -16,7 +17,10 @@ const Favourites = () => {
                     <Tutor>
                         <ProfileImg src="/images/ProfileImg.jpg"/>
                         <Name>
-                            <Heading>Vijendra <AiFillCheckCircle style={{color:"#1547FA"}}/></Heading>
+                            <Heading>Vijendra 
+                                <AiFillCheckCircle style={{color:"#1547FA"}}/>
+                                <India src="/images/india.svg"/>
+                                </Heading>
                             <Subject>
                                 <GiGraduateCap/> IIT JEE, NEET Physics&nbsp;&nbsp;
                                 <MdLocationOn/> Sikar, Rajasthan&nbsp;&nbsp;
@@ -49,7 +53,10 @@ const Favourites = () => {
                     <Tutor>
                         <ProfileImg src="/images/ProfileImg.jpg"/>
                         <Name>
-                            <Heading>Vijendra <AiFillCheckCircle style={{color:"#1547FA"}}/></Heading>
+                            <Heading>Vijendra 
+                                <AiFillCheckCircle style={{color:"#1547FA"}}/>
+                                <India src="/images/india.svg"/>
+                            </Heading>
                             <Subject>
                                 <GiGraduateCap/> IIT JEE, NEET Physics&nbsp;&nbsp;
                                 <MdLocationOn/> Sikar, Rajasthan&nbsp;&nbsp;

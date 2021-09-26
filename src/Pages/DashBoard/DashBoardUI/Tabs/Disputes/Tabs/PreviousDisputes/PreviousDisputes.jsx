@@ -1,6 +1,5 @@
 import React from 'react'
-import { Body, Head, Heading,Row ,Data,More,ProfileImg,Name, HeadingDate, Date} from '../../../Classes/HiredTutors/Tabs/RecentClasses/RecentClassesStyles'
-import { Table} from 'react-bootstrap'
+import { Body, Head, Heading,Row ,Data,More,ProfileImg,Name, HeadingDate, Date,Table} from '../../../Classes/HiredTutors/Tabs/RecentClasses/RecentClassesStyles'
 import VMore from './More/VMore';
 
 const PreviousDisputes = () => {

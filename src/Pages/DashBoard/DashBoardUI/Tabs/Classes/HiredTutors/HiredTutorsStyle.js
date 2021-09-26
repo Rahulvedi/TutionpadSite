@@ -191,7 +191,16 @@ margin: 0 1.84375rem;
 &:hover{
   color: black;
 }
-  
+`
+export const Item=styled.div`
+text-decoration: none;
+color: black;
+font-size: 1.2rem;
+font-weight: bold;
+margin: 0 1.84375rem;
+&:hover{
+  color: black;
+} 
 `
 export const Content=styled.div`
 padding: 1rem;

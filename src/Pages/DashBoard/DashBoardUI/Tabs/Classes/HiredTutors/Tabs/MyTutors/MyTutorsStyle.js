@@ -51,7 +51,7 @@ export const Heading=styled.h4`
 font-size: 1rem;
 font-weight: bold;
 `
-export const Paragraph=styled.p`
+export const Paragraph=styled.div`
 color: rgba(21, 39, 38, 0.78);
 font-size: .9rem;
 `

@@ -10,7 +10,7 @@ padding:.7rem 1rem;
 `
 export const Title=styled.div`
 font-weight: 600;
-font-size: 18px;
+font-size: 1.3rem;
 padding:.2rem 0;
 `
 export const SubTitle=styled.div`
@@ -33,7 +33,7 @@ margin: 1rem 0;
 `
 export const Topic=styled.div`
 padding:.1rem 1rem;
-font-size: 1rem;
+font-size: 1.1rem;
 color: #494949;
 
 `

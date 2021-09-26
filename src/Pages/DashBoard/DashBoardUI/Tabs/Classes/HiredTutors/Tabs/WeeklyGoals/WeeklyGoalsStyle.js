@@ -54,7 +54,7 @@ font-weight: bold;
 export const SubHeading=styled.h4`
 font-size: .95rem;
 `
-export const Paragraph=styled.p`
+export const Paragraph=styled.div`
 margin: 0;
 font-size: 1rem;
 `

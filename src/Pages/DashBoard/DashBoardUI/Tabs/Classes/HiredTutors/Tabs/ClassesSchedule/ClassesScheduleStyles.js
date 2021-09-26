@@ -52,16 +52,16 @@ font-weight: bold;
 export const SubHeading=styled.h4`
 font-size: .95rem;
 `
-export const Paragraph=styled.p`
+export const Paragraph=styled.div`
 margin: 0;
 font-size: .85rem;
 `
-export const Navigator=styled.p`
+export const Navigator=styled.div`
 display: flex;
 align-items: center;
 margin:1.5rem 0 2.5rem 0;
 `
-export const Button=styled.p`
+export const Button=styled.div`
 background: rgba(107, 252, 243, 0.8);
 color: #007770;
 padding:.2rem .3rem;
@@ -70,7 +70,7 @@ font-size: .95rem;
 font-weight: bold;
 
 `
-export const Subject=styled.p`
+export const Subject=styled.div`
 margin: 0;
 `
 

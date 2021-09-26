@@ -1,7 +1,7 @@
 import React from 'react'
-import { Body, Head, Heading,HeadingDate, Row ,Data,Date,More,ProfileImg,Name} from '../RecentClassesStyles'
+import { Body, Head, Heading,HeadingDate, Row ,Data,Date,More,ProfileImg,Name,Table} from '../RecentClassesStyles'
 import {Nav, Title,SubTitle,DateBox,Section,Topic,Rated,ModalBody,Button} from './ViewMoreStyles'
-import { Table,Modal} from 'react-bootstrap'
+import { Modal} from 'react-bootstrap'
 import { BiRupee } from "react-icons/bi"
 
 const ViewMore = () => {

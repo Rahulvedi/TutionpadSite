@@ -4,6 +4,7 @@ import { BiRupee,BiMessageDetail,BiCurrentLocation } from "react-icons/bi";
 import { MdLocationOn} from "react-icons/md";
 import { GiGraduateCap} from "react-icons/gi";
 import { Bar, ClassDetails, Heading, Message, Name, Paragraph, Price, ProfileImg, Progress, ProgressSection, Reviews, SubHeading, Subject, Tutor, Tutors } from './FavourtieTutorCardStyles'
+import { India } from '../../Classes/HiredTutors/HiredTutorsStyle';
 const FavourtieTutorCard = () => {
     return (
         <Tutors>
@@ -11,7 +12,10 @@ const FavourtieTutorCard = () => {
                         <Tutor>
                             <ProfileImg src="/images/ProfileImg.jpg" />
                             <Name>
-                                <Heading>Vijendra <AiFillCheckCircle style={{ color: "#1547FA" }} /></Heading>
+                                <Heading>Vijendra 
+                                    <AiFillCheckCircle style={{ color: "#1547FA" }} />
+                                    <India src="/images/india.svg"/>
+                                </Heading>
                                 <Subject>
                                     <GiGraduateCap /> IIT JEE, NEET Physics&nbsp;&nbsp;
                                     <MdLocationOn /> Sikar, Rajasthan&nbsp;&nbsp;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { TopBar, Left, Right,Message, JoinNow, ClassDetails, NavigationBar, NavigationItem, Content } from '../Classes/HiredTutors/HiredTutorsStyle';
+import { TopBar, Left, Right,Message, JoinNow, ClassDetails, NavigationBar, NavigationItem, Content,Item } from '../Classes/HiredTutors/HiredTutorsStyle';
 import { BiMessageDetail } from 'react-icons/bi';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import PreviousDisputes from './Tabs/PreviousDisputes/PreviousDisputes.jsx'
@@ -12,7 +12,7 @@ const Disputes = ({ match }) => {
         <section className="p-5">
             <TopBar style={{background:"#6BFCF3CC"}}>
                 <Left>
-                <NavigationItem>Faced any issue during your recent class?</NavigationItem>
+                <Item>Faced any issue during your recent class?</Item>
                 </Left>
                 <Right>
                     <JoinNow style={{borderRadius: "5px",margin:"0 1rem",padding:".7rem .9rem"}}>Create a dispute</JoinNow>

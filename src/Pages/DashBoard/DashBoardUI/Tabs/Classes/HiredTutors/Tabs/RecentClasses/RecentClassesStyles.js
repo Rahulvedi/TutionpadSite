@@ -57,7 +57,7 @@ cursor: pointer;
 margin-right: .5rem;
 `
 
-export const Name=styled.p`
+export const Name=styled.div`
 width:60%;
 margin: 0;
 word-wrap: break-word;
