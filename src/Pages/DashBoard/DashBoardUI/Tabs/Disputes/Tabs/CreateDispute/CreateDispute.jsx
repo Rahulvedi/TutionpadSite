@@ -6,6 +6,7 @@ const Container=styled.div`
     display: flex;
     margin:1rem 1.5rem;
     `
+
 const CreateDispute = () => {
     return (
         <>
