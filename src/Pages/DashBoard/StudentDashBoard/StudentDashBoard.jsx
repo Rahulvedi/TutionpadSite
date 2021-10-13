@@ -5,7 +5,7 @@ import SubDashBoardHeader from '../DashBoardUI/SubDashBoardHeader/SubDashBoardHe
 import { Content } from './StudentDashBoardStyle'
 import Error404 from '../../Error404/Error404'
 import StudentProvider from '../../../Context/StudentContext'
-import { Profile, Classes, Messages, Report, Disputes, Favourites, Payment, Orders, Requirments } from '../DashBoardUI/Tabs/default'
+import { Profile, Classes, Messages, Report, Disputes, Favourites, Orders, Requirments } from '../DashBoardUI/Tabs/default'
 const StudentDashBoard = ({ match }) => {
     return (
         <Router>
@@ -20,7 +20,7 @@ const StudentDashBoard = ({ match }) => {
                         <Route path={`${match.path}/report`} component={Report} />
                         <Route path={`${match.path}/disputes`} component={Disputes} />
                         <Route path={`${match.path}/favourites`} component={Favourites} />
-                        <Route path={`${match.path}/payment`} component={Payment} />
+                        {/* <Route path={`${match.path}/payment`} component={Payment} /> */}
                         <Route path={`${match.path}/orders`} component={Orders} />
                         <Route path={`${match.path}/requirements`} component={Requirments} />
                         <Route component={Error404} />

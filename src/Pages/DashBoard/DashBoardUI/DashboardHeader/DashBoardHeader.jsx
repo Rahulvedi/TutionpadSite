@@ -46,9 +46,6 @@ const DashBoardHeader = ({match}) => {
                                 <Item onClick={()=>{setMenuIsOpen(false)}} to={`${match.path}/requirements`}>Requirements</Item>
                             </MenuItem>
                             <MenuItem>
-                                <Item onClick={()=>{setMenuIsOpen(false)}} to={`${match.path}/payment`}>Payment</Item>
-                            </MenuItem>
-                            <MenuItem>
                                 <Item onClick={()=>{setMenuIsOpen(false)}} to={`${match.path}/orders`}>Orders</Item>
                             </MenuItem>
                             <MenuItem>

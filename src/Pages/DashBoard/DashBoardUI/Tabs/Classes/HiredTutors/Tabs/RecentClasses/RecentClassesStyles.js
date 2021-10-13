@@ -2,7 +2,9 @@ import styled from "styled-components";
 export const Head=styled.div``
 export const Body=styled.div`
 `
-export const Table=styled.div``
+export const Table=styled.div`
+padding: .2rem 1rem 
+`
 export const Row=styled.div`
 display: flex;
 justify-content: space-between;

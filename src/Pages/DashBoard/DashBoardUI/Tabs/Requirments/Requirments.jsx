@@ -88,6 +88,7 @@ const Requirments = () => {
                         <Col md={{ span: 1,offset: 0 }}></Col>
                         <Col md={5} >
                         {/*Add a range slider */}
+                        <input type="range" style={{color:"#6BFCF3CC",width:"100%"}} />
                         </Col>
                     </Row>
                     <Row style={{padding:'10px 40px 10px 40px'}}>

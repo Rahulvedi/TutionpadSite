@@ -89,6 +89,10 @@ padding:1rem 0;
 color: #494949;
 font-size: 14px;
 `
+export const Div= styled.div`
+display: flex;
+align-items: center;
+`
 export const Resolved= styled.h4`
 color: #007770;
 font-size: 14px;

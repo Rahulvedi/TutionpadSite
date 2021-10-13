@@ -9,7 +9,6 @@ const SubDashBoardHeader = ({match}) => {
                 <NavLink to={`${match.path}/report`}>Reports</NavLink>
                 <NavLink to={`${match.path}/disputes`}>Disputes</NavLink>
                 <NavLink to={`${match.path}/requirements`}>Requirements</NavLink>
-                <NavLink to={`${match.path}/payment`}>Payment</NavLink>
                 <NavLink to={`${match.path}/orders`}>Orders</NavLink>
                 <NavLink to={`${match.path}/profile`}>Profile</NavLink>
                 <NavLink to={`${match.path}/favourites`}>Favourites</NavLink>
